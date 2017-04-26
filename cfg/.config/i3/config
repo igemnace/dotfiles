@@ -3,8 +3,6 @@ set $mod Mod4
 
 ### APPLICATION KEYBINDS
 
-bindsym $mod+Shift+t exec /home/ian/Documents/Misc/scripts/open-terminal.sh
-
 # terminal
 bindsym $mod+Return exec urxvt +sb
 
