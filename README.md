@@ -16,14 +16,38 @@ If you want to check it out, see the following repo:
 
 - [todotxt-helper](https://github.com/igemnace/todotxt-helper)
 
+## Pre-Installation
+
+Make sure that your machine satisfies the following:
+
+- Is using GNU/Linux (scripts are untested on other UNIX systems and will
+  flat-out fail on Windows)
+- Has env and bash (required by install script)
+
+The dotfiles are for the following programs:
+
+- Xorg
+- Xmodmap
+- Xbindkeys
+- Xcape
+- ALSA with PulseAudio
+- light (for brightness)
+- i3
+- i3bar
+- i3status
+- i3lock
+- feh
+- rxvt-unicode
+- rofi
+
+You are not required to install and use all these programs, just the ones you
+want.
+
 ## Installation
 
-Right now there is no automated installation method. If you want to use a
-dotfile, simply take it from this repo and copy or symlink to the necessary
-directories.
-
-Installation scripts are coming soon. This is just a very quick upload, mostly
-for posting my setup to [r/unixporn](https://www.reddit.com/r/unixporn/).
+Just run `install.sh`. This will automatically symlink all the dotfiles in the
+`cfg` directory into your home directory, following the proper structure. Any
+pre-existing dotfiles are backed up (`.xinitrc` to `.xinitrc~`).
 
 ## Licensing
 
