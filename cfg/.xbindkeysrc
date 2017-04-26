@@ -1,0 +1,10 @@
+"sh -c 'pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%'"
+	XF86AudioRaiseVolume
+"sh -c 'pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%'"
+	XF86AudioLowerVolume
+"pactl set-sink-mute 0 toggle"
+	XF86AudioMute
+"light -A 5%"
+  XF86MonBrightnessUp
+"light -U 5%"
+  XF86MonBrightnessDown
