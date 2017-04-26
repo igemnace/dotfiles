@@ -58,22 +58,22 @@ domain.
 
 ## Screenshots
 
-![Clean](http://i.imgur.com/J1nTsCE.png)
+![clean](http://i.imgur.com/J1nTsCE.png "clean")
 
-![org session - vim with notes.md + todo.txt, mutt, shell access](http://i.imgur.com/WVopF3C.png)
+![org session - vim with notes.md + todo.txt, mutt, shell access](http://i.imgur.com/WVopF3C.png "org session - vim with notes.md + todo.txt, mutt, shell access")
 
-![hack session -vim, zsh](http://i.imgur.com/3ztQsik.png)
+![hack session -vim, zsh](http://i.imgur.com/3ztQsik.png "hack session -vim, zsh")
 
-![tinker session - zsh with git prompt flags](http://i.imgur.com/NV9S2ro.png)
+![tinker session - zsh with git prompt flags](http://i.imgur.com/NV9S2ro.png "tinker session - zsh with git prompt flags")
 
-![todo.txt helper script - add todo](http://i.imgur.com/p6P629f.png)
+![todo.txt helper script - add todo](http://i.imgur.com/p6P629f.png "todo.txt helper script - add todo")
 
-![todo.txt helper script - mark as done with fzf](http://i.imgur.com/nMnxMaQ.png)
+![todo.txt helper script - mark as done with fzf](http://i.imgur.com/nMnxMaQ.png "todo.txt helper script - mark as done with fzf")
 
-![rofi](http://i.imgur.com/erFiEBN.png)
+![rofi](http://i.imgur.com/erFiEBN.png "rofi")
 
-![vivaldi browser - quick commands bar](http://i.imgur.com/jOT9bBn.png)
+![vivaldi browser - quick commands bar](http://i.imgur.com/jOT9bBn.png "vivaldi browser - quick commands bar")
 
-![vivaldi browser - bookmarks panel](http://i.imgur.com/0vZWKb5.png)
+![vivaldi browser - bookmarks panel](http://i.imgur.com/0vZWKb5.png "vivaldi browser - bookmarks panel")
 
-![screenfetch](http://i.imgur.com/fAzL84l.png)
+![screenfetch](http://i.imgur.com/fAzL84l.png "screenfetch")
