@@ -55,3 +55,25 @@ If anyone else sees this and wants to use it, go ahead.
 
 This project is licensed under the Unlicense and is entirely under public
 domain.
+
+## Screenshots
+
+![Clean](http://i.imgur.com/J1nTsCE.png)
+
+![org session - vim with notes.md + todo.txt, mutt, shell access](http://i.imgur.com/WVopF3C.png)
+
+![hack session -vim, zsh](http://i.imgur.com/3ztQsik.png)
+
+![tinker session - zsh with git prompt flags](http://i.imgur.com/NV9S2ro.png)
+
+![todo.txt helper script - add todo](http://i.imgur.com/p6P629f.png)
+
+![todo.txt helper script - mark as done with fzf](http://i.imgur.com/nMnxMaQ.png)
+
+![rofi](http://i.imgur.com/erFiEBN.png)
+
+![vivaldi browser - quick commands bar](http://i.imgur.com/jOT9bBn.png)
+
+![vivaldi browser - bookmarks panel](http://i.imgur.com/0vZWKb5.png)
+
+![screenfetch](http://i.imgur.com/fAzL84l.png)
