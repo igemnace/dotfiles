@@ -11,6 +11,15 @@ bindsym $mod+Return exec urxvt +sb
 bindsym $mod+d exec rofi -show run -font "Roboto Mono Light for Powerline 10"
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# pass
+mode "pass" {
+        bindsym p mode "default"; exec /home/ian/Documents/Misc/scripts/rofi-pass.sh
+        bindsym a mode "default"; exec urxvt -g 80x1 +sb -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
+
+        bindsym Escape mode "default"
+}
+bindsym $mod+p mode "pass"
+
 # calendar
 bindsym $mod+c exec urxvt -g 24x9 +sb -name floating --hold -e cal -w -m
 
@@ -25,7 +34,7 @@ mode "todo" {
         bindsym Escape mode "default"
 }
 bindsym $mod+t mode "todo"
-for_window [class="URxvt" instance="floating"] floating enable border pixel 1
+for_window [class="URxvt" instance="floating"] floating enable border pixel 2
 
 ### WINDOW MANAGEMENT KEYBINDS
 # kill
@@ -143,7 +152,7 @@ bar {
 
 ### COLORS AND FONTS
 font pango:Roboto Mono Light for Powerline 9
-new_window pixel 2
+new_window none
 focus_follows_mouse no
 client.focused #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
 client.unfocused #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
