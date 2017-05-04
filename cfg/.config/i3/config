@@ -11,6 +11,9 @@ bindsym $mod+Return exec urxvt +sb
 bindsym $mod+d exec rofi -show run -font "Roboto Mono Light for Powerline 10"
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# lk4b (lock keyboard 4 baby)
+bindsym $mod+Shift+b exec lk4b
+
 # pass
 mode "pass" {
         bindsym p mode "default"; exec /home/ian/Documents/Misc/scripts/rofi-pass.sh
