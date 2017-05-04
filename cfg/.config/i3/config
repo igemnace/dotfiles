@@ -24,7 +24,8 @@ mode "pass" {
 bindsym $mod+p mode "pass"
 
 # calendar
-bindsym $mod+c exec urxvt -g 24x9 +sb -name floating --hold -e cal -w -m
+# bindsym $mod+c exec urxvt -g 24x9 +sb -name floating --hold -e cal -w -m
+bindsym $mod+c exec urxvt +sb -name floating -e calcurse
 
 # todo
 mode "todo" {
