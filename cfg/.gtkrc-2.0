@@ -1,0 +1,83 @@
+gtk-font-name="Roboto 10"
+gtk-icon-theme-name="Vibrancy-Dark-Red"
+
+# Eighties scheme
+# by Chris Kempson (http://chriskempson.com)
+#
+# GTK 3.0 template 
+# by Jonn Mostovoy - https://github.com/manpages
+#
+# Generated
+#  by base16-builder - https://github.com/base16-builder/base16-builder
+
+style "default"
+{
+  engine "hcengine" {
+    edge_thickness = 2
+  }
+
+  xthickness = 2
+  ythickness = 2
+
+  EelEditableLabel::cursor_aspect_ratio = 0.1
+  EelEditableLabel::cursor_color    = "#6699cc"
+
+  GtkEntry::cursor_color    = "#6699cc"
+  GtkEntry::cursor_aspect_ratio = 0.1
+
+  GtkHSV::focus-line-pattern = "\0"
+
+  GtkRange::stepper-size = 20
+
+  GtkTextView::cursor_aspect_ratio = 0.1
+  GtkTextView::cursor_color    = "#6699cc"
+
+  GtkTreeView::expander-size = 16
+
+  GtkWidget::focus-line-pattern = "\4\2"
+  GtkWidget::focus-line-width = 2
+  GtkWidget::focus-padding = 0
+  GtkWidget::interior_focus = 1
+  GtkWidget::link-color = "#6699cc"
+  GtkWidget::visited-link-color = "#cc99cc"
+
+  # Nautilus
+  NautilusIconContainer::frame_text = 1
+
+  # Pidgin
+  GtkIMHtml::hyperlink-color = "#6699cc"
+  GtkIMHtml::hyperlink-visited-color = "#cc99cc"
+  GtkIMHtml::hyperlink-prelight-color = "#f2f0ec"
+
+  # Evolution
+  GtkHTML::link_color = "#6699cc"
+  GtkHTML::vlink_color = "#cc99cc"
+  GtkHTML::cite_color = "#f2f0ec"
+
+  fg[NORMAL]      = "#a09f93"
+  text[NORMAL]    = "#a09f93"
+  bg[NORMAL]      = "#2d2d2d"
+  base[NORMAL]    = "#2d2d2d"
+
+  fg[INSENSITIVE]      = "#a09f93"
+  bg[INSENSITIVE]      = "#393939"
+  text[INSENSITIVE]    = "#a09f93"
+  base[INSENSITIVE]    = "#393939"
+
+  fg[PRELIGHT]    = "#2d2d2d"
+  text[PRELIGHT]  = "#2d2d2d"
+  bg[PRELIGHT]    = "#a09f93"
+  base[PRELIGHT]  = "#a09f93"
+
+  fg[ACTIVE]      = "#d3d0c8"
+  text[ACTIVE]    = "#d3d0c8"
+  bg[ACTIVE]      = "#515151"
+  base[ACTIVE]    = "#515151"
+
+  fg[SELECTED]    = "#2d2d2d"
+  text[SELECTED]  = "#2d2d2d"
+  bg[SELECTED]    = "#a09f93"
+  base[SELECTED]  = "#f2f0ec"
+}
+
+class "GtkWidget" style "default"

@@ -1,0 +1,41 @@
+/*
+ * Eighties scheme
+ * by Chris Kempson (http://chriskempson.com)
+ *
+ * GTK 3.0 template 
+ * by Jonn Mostovoy - https://github.com/manpages
+ *
+ * Generated
+ * by base16-builder - https://github.com/base16-builder/base16-builder
+ */
+
+@define-color theme_base_color #2d2d2d;
+@define-color theme_fg_color #a09f93;
+@define-color theme_active_color #515151;
+@define-color theme_insensitive_color #a09f93;
+@define-color theme_insensitive_bg #2d2d2d;
+
+@define-color theme_cursor_color #6699cc;
+
+/* fallback mode */
+@define-color os_chrome_bg_color #2d2d2d;
+@define-color os_chrome_fg_color #a09f93;
+@define-color os_chrome_selected_bg_color #e8e6df;
+@define-color os_chrome_selected_fg_color #515151;
+
+* {
+    /* Pidgin */
+    -GtkIMHtml-hyperlink-color: #6699cc;
+    -GtkIMHtml-hyperlink-visited-color: #cc99cc;
+    -GtkIMHtml-hyperlink-prelight-color: #f2f0ec;
+
+    /* Evolution */
+    -GtkHTML-link-color: #6699cc;
+    -GtkHTML-vlink-color: #cc99cc;
+    -GtkHTML-cite-color: #99cc99;
+
+    -GtkWidget-link-color: #6699cc;
+    -GtkWidget-visited-link-color: #cc99cc;
+}
+
+@import url("resource:///org/gnome/HighContrastInverse/a11y.css");
