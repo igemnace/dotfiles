@@ -32,6 +32,8 @@ The dotfiles are for the following programs:
 - Xcape
 - ALSA with PulseAudio
 - light (for brightness)
+- GTK 2.0
+- GTK 3.0
 - i3
 - i3bar
 - i3status
