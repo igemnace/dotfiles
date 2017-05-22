@@ -4,7 +4,7 @@ set $mod Mod4
 ### APPLICATION KEYBINDS
 
 # terminal
-bindsym $mod+Return exec urxvt +sb
+bindsym $mod+Return exec urxvt
 
 # menu
 # bindsym $mod+d exec dmenu_run -i -fn 'Roboto Mono Light for Powerline:pixelsize=14' -nb '#2d2d2d' -nf '#d3d0c8' -sb '#2d2d2d' -sf '#ffcc66'
@@ -17,23 +17,23 @@ bindsym $mod+Shift+b exec lk4b
 # pass
 mode "pass" {
         bindsym p mode "default"; exec /home/ian/Documents/Misc/scripts/rofi-pass.sh
-        bindsym a mode "default"; exec urxvt -g 80x1 +sb -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
+        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
 
         bindsym Escape mode "default"
 }
 bindsym $mod+p mode "pass"
 
 # calendar
-# bindsym $mod+c exec urxvt -g 24x9 +sb -name floating --hold -e cal -w -m
-bindsym $mod+c exec urxvt +sb -name floating -e calcurse
+# bindsym $mod+c exec urxvt -g 24x9 -name floating --hold -e cal -w -m
+bindsym $mod+c exec urxvt -name floating -e calcurse
 
 # todo
 mode "todo" {
-        bindsym a mode "default"; exec urxvt -g 80x1 +sb -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo add
-        bindsym l mode "default"; exec urxvt +sb -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ls -p
-        bindsym d mode "default"; exec urxvt +sb -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo done --fzf
-        bindsym x mode "default"; exec urxvt +sb -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ctx
-        bindsym p mode "default"; exec urxvt +sb -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo proj
+        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo add
+        bindsym l mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ls -p
+        bindsym d mode "default"; exec urxvt -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo done --fzf
+        bindsym x mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ctx
+        bindsym p mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo proj
 
         bindsym Escape mode "default"
 }
