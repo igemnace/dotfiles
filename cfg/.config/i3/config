@@ -160,5 +160,6 @@ font pango:Roboto Mono Light 9
 new_window none
 focus_follows_mouse no
 client.focused #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
+client.focused_inactive #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
 client.unfocused #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
 client.urgent #2d2d2d #2d2d2d #cc99cc #cc99cc #2d2d2d
