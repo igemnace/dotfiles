@@ -8,7 +8,7 @@ bindsym $mod+Return exec urxvt
 
 # menu
 # bindsym $mod+d exec dmenu_run -i -fn 'Roboto Mono Light for Powerline:pixelsize=14' -nb '#2d2d2d' -nf '#d3d0c8' -sb '#2d2d2d' -sf '#ffcc66'
-bindsym $mod+d exec rofi -show run -font "Roboto Mono Light for Powerline 10"
+bindsym $mod+d exec rofi -show run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # lk4b (lock keyboard 4 baby)
@@ -141,7 +141,7 @@ bindsym $mod+Shift+x mode "exit"
 ### BAR
 bar {
         position top
-        font pango:Roboto Mono Light for Powerline, FontAwesome 10
+        font pango:Roboto Mono Light, FontAwesome 10
         strip_workspace_numbers yes
         status_command i3status
         separator_symbol "•"
@@ -156,7 +156,7 @@ bar {
 }
 
 ### COLORS AND FONTS
-font pango:Roboto Mono Light for Powerline 9
+font pango:Roboto Mono Light 9
 new_window none
 focus_follows_mouse no
 client.focused #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369

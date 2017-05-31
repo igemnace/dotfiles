@@ -1,3 +1,4 @@
+rofi.font: Roboto Mono Light 10
 rofi.color-enabled: true
 rofi.color-window: #2d2d2d, #2d2d2d, #747369
 rofi.color-normal: #2d2d2d, #d3d0c8, #2d2d2d, #2d2d2d, #ffcc66
