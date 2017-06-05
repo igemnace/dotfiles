@@ -7,9 +7,7 @@ set $mod Mod4
 bindsym $mod+Return exec urxvt
 
 # menu
-# bindsym $mod+d exec dmenu_run -i -fn 'Roboto Mono Light for Powerline:pixelsize=14' -nb '#2d2d2d' -nf '#d3d0c8' -sb '#2d2d2d' -sf '#ffcc66'
 bindsym $mod+d exec rofi -show run
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # lk4b (lock keyboard 4 baby)
 bindsym $mod+Shift+b exec lk4b
@@ -24,8 +22,10 @@ mode "pass" {
 bindsym $mod+p mode "pass"
 
 # calendar
-# bindsym $mod+c exec urxvt -g 24x9 -name floating --hold -e cal -w -m
 bindsym $mod+c exec urxvt -name floating -e calcurse
+
+# calculator
+bindsym $mod+equal exec urxvt -name floating -e bc -l
 
 # todo
 mode "todo" {
