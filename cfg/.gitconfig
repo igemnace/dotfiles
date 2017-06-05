@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Ian Emnace
+	email = igemnace@gmail.com
+[core]
+	excludesfile = ~/.cvsignore
+	editor = vim
+[alias]
+	unstage = reset HEAD
+	discard = checkout
