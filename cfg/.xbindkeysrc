@@ -8,3 +8,11 @@
 	XF86MonBrightnessUp
 "light -U 5%"
 	XF86MonBrightnessDown
+"cmus-remote --next"
+	Mod4 + Next
+"cmus-remote --prev"
+	Mod4 + Prior
+"cmus-remote --pause"
+	Mod4 + Home
+"cmus-remote --stop"
+	Mod4 + End
