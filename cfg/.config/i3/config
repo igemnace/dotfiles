@@ -151,6 +151,7 @@ bar {
 
                 focused_workspace #2d2d2d #2d2d2d #ffcc66
                 urgent_workspace #2d2d2d #2d2d2d #cc99cc
+                active_workspace #2d2d2d #2d2d2d #747369
                 inactive_workspace #2d2d2d #2d2d2d #747369
         }
 }
