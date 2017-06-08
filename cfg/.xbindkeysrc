@@ -5,6 +5,6 @@
 "pactl set-sink-mute 0 toggle"
 	XF86AudioMute
 "light -A 5%"
-  XF86MonBrightnessUp
+	XF86MonBrightnessUp
 "light -U 5%"
-  XF86MonBrightnessDown
+	XF86MonBrightnessDown
