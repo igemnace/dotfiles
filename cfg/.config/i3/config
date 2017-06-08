@@ -147,7 +147,7 @@ bindsym $mod+Shift+x mode "exit"
 ### BAR
 bar {
         position top
-        font pango:Roboto Mono Light, FontAwesome 10
+        font pango:Roboto Mono Light, FontAwesome 9
         strip_workspace_numbers yes
         status_command i3status
         separator_symbol "•"
