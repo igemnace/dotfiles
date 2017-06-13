@@ -1,5 +1,6 @@
 urxvt.shading: 15
 urxvt.scrollBar: false
+urxvt.saveLines: 0
 urxvt.font: xft:Roboto\ Mono\ Light:pixelsize=12
 urxvt.letterSpace: -1
 urxvt.perl-ext-common: default,matcher,resize-font
@@ -11,6 +12,7 @@ urxvt.matcher.button: 1
 /* style floating urxvt windows the same way */
 floating.shading: 15
 floating.scrollBar: false
+floating.saveLines: 0
 floating.font: xft:Roboto\ Mono\ Light:pixelsize=12
 floating.letterSpace: -1
 floating.perl-ext-common: default,matcher,resize-font
