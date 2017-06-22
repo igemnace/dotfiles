@@ -15,7 +15,7 @@ bindsym $mod+Shift+b exec lk4b
 # pass
 mode "pass" {
         bindsym p mode "default"; exec /home/ian/Documents/Misc/scripts/rofi-pass.sh
-        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
+        bindsym a mode "default"; exec urxvt -g 80x5 -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
 
         bindsym Escape mode "default"
 }
