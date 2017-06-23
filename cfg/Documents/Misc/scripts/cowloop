@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+while (clear && fortune | cowsay | lolcat); do sleep 60; done

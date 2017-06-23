@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ruby $HOME/Documents/Misc/scripts/animations/pacman
