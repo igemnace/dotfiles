@@ -27,6 +27,9 @@ bindsym $mod+c exec urxvt -name floating -e calcurse
 # calculator
 bindsym $mod+equal exec urxvt -name floating -e bc -l
 
+# wifi
+bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e /home/ian/Documents/Misc/scripts/fzf-nmcli.sh
+
 # todo
 mode "todo" {
         bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo add
