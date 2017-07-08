@@ -47,7 +47,7 @@ want.
 
 ## Installation
 
-Just run `install.sh`. This will automatically symlink all the dotfiles in the
+Just run `./install`. This will automatically symlink all the dotfiles in the
 `cfg` directory into your home directory, following the proper structure. Any
 pre-existing dotfiles are backed up (`.xinitrc` to `.xinitrc~`).
 
