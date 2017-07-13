@@ -26,21 +26,22 @@ Make sure that your machine satisfies the following:
 
 The dotfiles are for the following programs:
 
-- Xorg
-- Xmodmap
-- Xbindkeys
-- Xcape
 - ALSA with PulseAudio
-- light (for brightness)
+- cmus
+- feh
 - GTK 2.0
 - GTK 3.0
 - i3
 - i3bar
-- i3status
 - i3lock
-- feh
-- rxvt-unicode
+- i3status
+- light (for brightness)
 - rofi
+- rxvt-unicode
+- Xbindkeys
+- Xcape
+- Xmodmap
+- Xorg
 
 You are not required to install and use all these programs, just the ones you
 want.
