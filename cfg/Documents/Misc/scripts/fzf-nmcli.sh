@@ -9,15 +9,15 @@ security=$(echo "$chosen_wifi" | cut -f 3)
 
 if nmcli --terse connection show "$chosen_ssid" &>/dev/null; then
   >&2 echo "Activating existing profile for $chosen_ssid..."
-  nmcli connection up "$chosen_ssid" &
+  nmcli connection up "$chosen_ssid"
 else
   if [[ $security =~ "WPA" ]]; then
     read -p "Password: " password
 
     >&2 echo "Connecting to $chosen_ssid..."
-    nmcli device wifi connect "$chosen_ssid" password "$password" &
+    nmcli device wifi connect "$chosen_ssid" password "$password"
   else
     >&2 echo "Connecting to $chosen_ssid..."
-    nmcli device wifi connect "$chosen_ssid" &
+    nmcli device wifi connect "$chosen_ssid"
   fi
 fi
