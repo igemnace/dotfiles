@@ -16,7 +16,7 @@ if [[ -z $1 ]] || [[ -z $2 ]]; then
 fi
 
 inotifywait -rme modify --format '%w%f' "$1" | while read -r filename; do
-  echo >&2 "Syncing..."
+  echo >&2 "Syncing ${filename##*/}..."
 
   rsync "$filename" "$2/$filename"
 
