@@ -2,7 +2,6 @@ urxvt.shading: 15
 urxvt.scrollBar: false
 urxvt.saveLines: 0
 urxvt.font: xft:Roboto\ Mono\ Light:pixelsize=12
-urxvt.italicFont: xft:Roboto\ Mono\ Light:style=Italic
 urxvt.letterSpace: -1
 urxvt.perl-ext-common: default,matcher,resize-font
 urxvt.resize-font.smaller: C-Down
@@ -14,7 +13,6 @@ urxvt.matcher.button: 1
 floating.shading: 15
 floating.scrollBar: false
 floating.font: xft:Roboto\ Mono\ Light:pixelsize=12
-floating.italicFont: xft:Roboto\ Mono\ Light:style=Italic
 floating.letterSpace: -1
 floating.perl-ext-common: default,matcher,resize-font
 floating.resize-font.smaller: C-Down
