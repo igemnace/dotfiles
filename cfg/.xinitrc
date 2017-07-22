@@ -5,6 +5,9 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
+# use setxkbmap
+setxkbmap -option ctrl:nocaps,shift:both_capslock
+
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
