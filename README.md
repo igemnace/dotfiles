@@ -11,6 +11,11 @@ following repos:
 - [tmux-config](https://github.com/igemnace/tmux-config)
 - [vim-config](https://github.com/igemnace/vim-config)
 
+I'm also starting out with Emacs. My Emacs config isn't as rich as the above,
+but it's still hosted on its own repo:
+
+- [emacs-config](https://github.com/igemnace/emacs-config)
+
 My custom todo.txt helper script also isn't here, since it's not style-related.
 If you want to check it out, see the following repo:
 
