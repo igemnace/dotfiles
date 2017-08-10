@@ -25,7 +25,7 @@ bindsym $mod+p mode "pass"
 bindsym $mod+c exec urxvt -name floating -e calcurse
 
 # calculator
-bindsym $mod+equal exec urxvt -name floating -e bc -l
+bindsym $mod+equal exec urxvt -name floating -e qalc
 
 # wifi
 bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e /home/ian/Documents/Misc/scripts/fzf-nmcli.sh
