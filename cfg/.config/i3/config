@@ -59,6 +59,9 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
+# toggle sticky
+bindsym $mod+Shift+s sticky toggle
+
 # move workspaces
 bindsym $mod+Mod1+h move workspace to output left
 bindsym $mod+Mod1+j move workspace to output down
