@@ -33,6 +33,8 @@ xcape -t 200 &
 xbindkeys &
 
 # set up xautolock
+xset -dpms
+xset s off
 xautolock -time 15 -locker "i3lock -u --image=$HOME/Pictures/Wallpapers/Moria.png" &
 
 # start some nice programs
