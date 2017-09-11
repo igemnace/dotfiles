@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # display and prompt for wifi with fzf
-chosen_wifi=$(nmcli --terse device wifi list | cut -f 2,7,8 -d ':' | tr ':' $'\t' | FZF_DEFAULT_OPTS='--no-bold --color=fg:7,fg+:3,bg:-1,bg+:-1,hl:5,hl+:5,prompt:8,pointer:3,marker:2' fzf)
+chosen_wifi=$(nmcli --terse device wifi list | cut -f 2,7,8 -d ':' | tr ':' $'\t' | FZF_DEFAULT_OPTS='--no-bold --color=fg:7,fg+:3,bg:-1,bg+:-1,hl:6,hl+:6,prompt:8,pointer:3,marker:2' fzf)
 
 # fail fast if no wifi is chosen
 [ -z "$chosen_wifi" ] && exit 1
