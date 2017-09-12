@@ -66,22 +66,33 @@ domain.
 
 ## Screenshots
 
-![clean](http://i.imgur.com/J1nTsCE.png "clean")
+Clean desktop:
+![wallpaper](https://user-images.githubusercontent.com/22214206/30312744-63cfe37c-97cd-11e7-8a8c-4951465b8994.png)
 
-![org session - vim with notes.md + todo.txt, mutt, shell access](http://i.imgur.com/WVopF3C.png "org session - vim with notes.md + todo.txt, mutt, shell access")
+Hack session (working on Lisp koans with Vim and SBCL):
+![hack](https://user-images.githubusercontent.com/22214206/30312735-6392309a-97cd-11e7-9a79-a93b06223ac2.png)
 
-![hack session -vim, zsh](http://i.imgur.com/3ztQsik.png "hack session -vim, zsh")
+Emacs (working on the same Lisp koans project):
+![emacs](https://user-images.githubusercontent.com/22214206/30312734-63920a48-97cd-11e7-845d-26b498e83ce0.png)
 
-![tinker session - zsh with git prompt flags](http://i.imgur.com/NV9S2ro.png "tinker session - zsh with git prompt flags")
+Org session (Vimwiki top left, Todo.txt bottom left, Mutt top right, shell
+access bottom right):
+![mail todo](https://user-images.githubusercontent.com/22214206/30312738-6394ca58-97cd-11e7-8b19-47e4ec83a775.png)
 
-![todo.txt helper script - add todo](http://i.imgur.com/p6P629f.png "todo.txt helper script - add todo")
+My Todo.txt helper script (adding a todo):
+![todo-add](https://user-images.githubusercontent.com/22214206/30312743-63cb43bc-97cd-11e7-8106-ca5696eefae8.png)
 
-![todo.txt helper script - mark as done with fzf](http://i.imgur.com/nMnxMaQ.png "todo.txt helper script - mark as done with fzf")
+My Todo.txt helper script (marking a todo as done with FZF):
+![todo-fzf](https://user-images.githubusercontent.com/22214206/30312742-63ca4520-97cd-11e7-8d1c-e8bbf31ff9a7.png)
 
-![rofi](http://i.imgur.com/erFiEBN.png "rofi")
+Entertainment session (playing music with cmus and cli-visualizer):
+![music](https://user-images.githubusercontent.com/22214206/30312739-63a6c7bc-97cd-11e7-9980-03b773a78dbe.png)
 
-![vivaldi browser - quick commands bar](http://i.imgur.com/jOT9bBn.png "vivaldi browser - quick commands bar")
+Games workspace (playing Nethack on cool-retro-term):
+![crt-nethack](https://user-images.githubusercontent.com/22214206/30312736-63929dc8-97cd-11e7-8129-adf3b95e514f.png)
 
-![vivaldi browser - bookmarks panel](http://i.imgur.com/0vZWKb5.png "vivaldi browser - bookmarks panel")
+Vivaldi (running Quick Commands):
+![vivaldi-quick-commands](https://user-images.githubusercontent.com/22214206/30312741-63c9fdfe-97cd-11e7-9390-86747399c1dc.png)
 
-![screenfetch](http://i.imgur.com/fAzL84l.png "screenfetch")
+Vivaldi (opening side panel):
+![vivaldi-side-panel](https://user-images.githubusercontent.com/22214206/30312740-63c9bd1c-97cd-11e7-82b1-871a0ad34b95.png)
