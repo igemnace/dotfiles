@@ -25,9 +25,7 @@ If you want to check it out, see the following repo:
 
 Make sure that your machine satisfies the following:
 
-- Is using GNU/Linux (scripts are untested on other UNIX systems and will
-  flat-out fail on Windows)
-- Has env and bash (required by install script)
+- Has env, bash, and GNU cp (required by install script)
 
 The dotfiles are for the following programs:
 
@@ -53,9 +51,10 @@ want.
 
 ## Installation
 
-Just run `./install`. This will automatically symlink all the dotfiles in the
-`cfg` directory into your home directory, following the proper structure. Any
-pre-existing dotfiles are backed up (`.xinitrc` to `.xinitrc~`).
+Just run `./install` from the repository's root directory. This will
+automatically symlink all the dotfiles in the `cfg` directory into your home
+directory, following the proper structure. Any pre-existing dotfiles are backed
+up (`.xinitrc` to `.xinitrc~`).
 
 ## Licensing
 
