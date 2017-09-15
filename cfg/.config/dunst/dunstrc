@@ -139,14 +139,13 @@
     dmenu = /usr/bin/dmenu -p dunst:
     
     # Browser for opening urls in context menu.
-    browser = /usr/bin/firefox -new-tab
+    browser = /usr/bin/xdg-open
 
     # Align icons left/right/off
-    icon_position = off
+    icon_position = left
 
     # Paths to default icons.
-    icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-
+    icon_folders = /usr/share/icons/Vibrancy-Colors-Dark/status/16
 [frame]
     width = 1
     color = "#d3d0c8"
@@ -159,15 +158,15 @@
     # Xev might be helpful to find names for keys.
     
     # Close notification.
-    close = mod4+grave
+    close = mod4+Escape
     
     # Close all notifications.
-    close_all = mod4+shift+grave
+    close_all = mod4+shift+Escape
     
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1".
-    history = mod1+mod4+grave
+    history = mod1+mod4+Escape
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
