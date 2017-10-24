@@ -7,7 +7,7 @@ set $mod Mod4
 bindsym $mod+Return exec urxvt
 
 # menu
-bindsym $mod+d exec rofi -show run
+bindsym $mod+space exec rofi -show run
 
 # lk4b (lock keyboard 4 baby)
 bindsym $mod+Shift+b exec lk4b
@@ -83,10 +83,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+t floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Mod1+t focus mode_toggle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
