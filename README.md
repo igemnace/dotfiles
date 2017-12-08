@@ -1,5 +1,19 @@
 # igemnace's dotfiles
 
+## Note
+
+This repo is full of cruft, hard-coding, hacks, and whatnot. I might have been
+proud of my dotfiles at some point in time, but as I've grown in learning, I've
+come to realize that **none** of what I do here is done elegantly.
+
+I'll be giving as much effort as I can spare to remedy this, but that's not
+saying much. It'll take me quite a bit of time to clean this up.
+
+To anyone else reading this, you are free to steal a snippet or two if you like
+something; I leave it to your good judgment. **Caveat emptor.**
+
+## Introduction
+
 These are the miscellaneous dotfiles for most of the themed elements in my
 desktop (i3, rofi, etc).
 
@@ -11,21 +25,15 @@ following repos:
 - [tmux-config](https://github.com/igemnace/tmux-config)
 - [vim-config](https://github.com/igemnace/vim-config)
 
-I'm also starting out with Emacs. My Emacs config isn't as rich as the above,
-but it's still hosted on its own repo:
+I'm also starting out with Emacs. (Update: Heh. 4 months into the future, still
+"starting out with Emacs"!)
+
+My Emacs config isn't as rich as the above, but it's still hosted on its own
+repo:
 
 - [emacs-config](https://github.com/igemnace/emacs-config)
 
-My custom todo.txt helper script also isn't here, since it's not style-related.
-If you want to check it out, see the following repo:
-
-- [todotxt-helper](https://github.com/igemnace/todotxt-helper)
-
 ## Pre-Installation
-
-Make sure that your machine satisfies the following:
-
-- Has env, bash, and GNU cp (required by install script)
 
 The dotfiles are for the following programs:
 
@@ -46,15 +54,12 @@ The dotfiles are for the following programs:
 - Xmodmap
 - Xorg
 
-You are not required to install and use all these programs, just the ones you
-want.
-
 ## Installation
 
-Just run `./install` from the repository's root directory. This will
-automatically symlink all the dotfiles in the `cfg` directory into your home
-directory, following the proper structure. Any pre-existing dotfiles are backed
-up (`.xinitrc` to `.xinitrc~`).
+There's an `install` script, but I don't recommend it.
+
+Better to just grab bits and pieces, then place in their proper locations
+(`cfg/` follows `$HOME` directory structure).
 
 ## Licensing
 
