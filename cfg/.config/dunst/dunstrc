@@ -142,7 +142,7 @@
     browser = /usr/bin/xdg-open
 
     # Align icons left/right/off
-    icon_position = left
+    icon_position = off
 
     # Paths to default icons.
     icon_folders = /usr/share/icons/Vibrancy-Colors-Dark/status/16
