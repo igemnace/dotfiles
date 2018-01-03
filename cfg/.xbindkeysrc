@@ -16,5 +16,5 @@
 	Mod4 + Home
 "cmus-remote --stop"
 	Mod4 + End
-"screenscrot.sh"
+"screenscrot"
 	Print

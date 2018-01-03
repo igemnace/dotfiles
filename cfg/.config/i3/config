@@ -14,8 +14,8 @@ bindsym $mod+Shift+b exec lk4b
 
 # pass
 mode "pass" {
-        bindsym p mode "default"; exec /home/ian/Documents/Misc/scripts/rofi-pass.sh
-        bindsym a mode "default"; exec urxvt -g 80x5 -name floating -e /home/ian/Documents/Misc/scripts/add-pass.sh
+        bindsym p mode "default"; exec rofi-pass
+        bindsym a mode "default"; exec urxvt -g 80x5 -name floating -e add-pass
 
         bindsym Escape mode "default"
 }
@@ -28,15 +28,18 @@ bindsym $mod+c exec urxvt -name floating -e calcurse
 bindsym $mod+equal exec urxvt -name floating -e qalc
 
 # wifi
-bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e /home/ian/Documents/Misc/scripts/fzf-nmcli.sh
+bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e fzf-nmcli
+
+# music
+bindsym $mod+m exec cmus-notify
 
 # todo
 mode "todo" {
-        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo add
-        bindsym l mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ls -p
-        bindsym d mode "default"; exec urxvt -name floating -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo done --fzf
-        bindsym x mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo ctx
-        bindsym p mode "default"; exec urxvt -name floating --hold -e /home/ian/Documents/Misc/scripts/todotxt-helper/todo proj
+        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e todo add
+        bindsym l mode "default"; exec urxvt -name floating --hold -e todo ls -p
+        bindsym d mode "default"; exec urxvt -name floating -e todo done --fzf
+        bindsym x mode "default"; exec urxvt -name floating --hold -e todo ctx
+        bindsym p mode "default"; exec urxvt -name floating --hold -e todo proj
 
         bindsym Escape mode "default"
 }
