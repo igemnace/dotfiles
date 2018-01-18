@@ -4,3 +4,4 @@ rofi.color-window: #2d2d2d, #2d2d2d, #747369
 rofi.color-normal: #2d2d2d, #d3d0c8, #2d2d2d, #2d2d2d, #ffcc66
 rofi.color-active: #2d2d2d, #99cc99, #2d2d2d, #2d2d2d, #ffcc66
 rofi.color-urgent: #2d2d2d, #cc99cc, #2d2d2d, #2d2d2d, #ffcc66
+rofi.kb-mode-next: Super-space

@@ -7,7 +7,7 @@ set $mod Mod4
 bindsym $mod+Return exec urxvt
 
 # menu
-bindsym $mod+space exec rofi -show run
+bindsym $mod+space exec rofi -modi run#window -show run
 
 # lk4b (lock keyboard 4 baby)
 bindsym $mod+Shift+b exec lk4b
