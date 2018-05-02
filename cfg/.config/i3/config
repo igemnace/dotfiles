@@ -30,6 +30,9 @@ bindsym $mod+equal exec urxvt -name floating -e qalc
 # wifi
 bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e fzf-nmcli
 
+# monitor
+bindsym $mod+Shift+m exec rofi-mons
+
 # music
 bindsym $mod+m exec cmus-notify
 
