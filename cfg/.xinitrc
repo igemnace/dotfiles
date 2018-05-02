@@ -26,6 +26,9 @@ if [ -f "$usermodmap" ]; then
   xmodmap "$usermodmap"
 fi
 
+# set up a wallpaper
+feh --bg-scale "$HOME/Pictures/Wallpapers/Elbereth.png" &
+
 # start xcape
 xcape -t 200 &
 
@@ -50,8 +53,5 @@ fi
 pactl upload-sample /usr/share/sounds/freedesktop/stereo/bell.oga x11-bell
 pactl load-module module-x11-bell sample=x11-bell display="$DISPLAY"
 xset b 100
-
-# set up a wallpaper
-feh --bg-scale "$HOME/Pictures/Wallpapers/Elbereth.png" &
 
 exec i3
