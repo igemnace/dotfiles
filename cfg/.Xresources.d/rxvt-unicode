@@ -8,6 +8,7 @@ urxvt.resize-font.smaller: C-Down
 urxvt.resize-font.bigger: C-Up
 urxvt.keysym.M-Up: perl:matcher:last
 urxvt.keysym.M-Down: perl:matcher:list
+urxvt.keysym.M-Tab: perl:matcher:select
 urxvt.url-launcher: /usr/bin/xdg-open
 urxvt.matcher.button: 1
 urxvt.iso14755: false
@@ -23,5 +24,6 @@ floating.resize-font.smaller: C-Down
 floating.resize-font.bigger: C-Up
 floating.keysym.M-Up: perl:matcher:last
 floating.keysym.M-Down: perl:matcher:list
+floating.keysym.M-Tab: perl:matcher:select
 floating.url-launcher: /usr/bin/xdg-open
 floating.matcher.button: 1
