@@ -6,7 +6,7 @@ sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # use setxkbmap
-setxkbmap -option ctrl:nocaps,shift:both_capslock
+setxkbmap -option ctrl:nocaps,shift:both_capslock &
 
 # merge in defaults and keymaps
 
@@ -26,9 +26,6 @@ if [ -f "$usermodmap" ]; then
   xmodmap "$usermodmap"
 fi
 
-# set up a wallpaper
-feh --bg-scale "$HOME/Pictures/Wallpapers/Elbereth.png" &
-
 # start xcape
 xcape -t 200 &
 
@@ -36,8 +33,8 @@ xcape -t 200 &
 xbindkeys &
 
 # set up xautolock
-xset -dpms
-xset s off
+xset -dpms &
+xset s off &
 xautolock -time 15 -locker "i3lock -u --image=$HOME/Pictures/Wallpapers/Moria.png" &
 
 # start some nice programs
@@ -51,7 +48,10 @@ fi
 
 # let PulseAudio manage the bell event
 pactl upload-sample /usr/share/sounds/freedesktop/stereo/bell.oga x11-bell
-pactl load-module module-x11-bell sample=x11-bell display="$DISPLAY"
-xset b 100
+pactl load-module module-x11-bell sample=x11-bell display="$DISPLAY" &
+xset b 100 &
+
+# set up a wallpaper
+feh --bg-scale "$HOME/Pictures/Wallpapers/Elbereth.png" &
 
 exec i3
