@@ -1,0 +1,24 @@
+# account settings
+set imap_user=igemnace@gmail.com
+set imap_pass=$my_work_pass
+
+# encryption settings
+set pgp_sign_as=0xE745ECDBA8D167079F8353DF5E5B911E510DF7BE
+
+# mailbox settings
+set folder=imaps://igemnace@imap.gmail.com/
+set spoolfile=+INBOX
+set postponed=+[Gmail]/Drafts
+unset record
+mailboxes =INBOX
+
+# mail settings
+set smtp_url=smtps://$imap_user:$imap_pass@smtp.gmail.com/
+set realname='Ian Isaac G. Emnace'
+set from=igemnace@gmail.com
+set hostname="gmail.com"
+set ssl_force_tls=yes
+unset ssl_starttls
+
+## HOOK
+account-hook $folder "set imap_user=$imap_user imap_pass=$imap_pass"

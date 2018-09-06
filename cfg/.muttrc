@@ -1,0 +1,51 @@
+# account settings
+source "gpg -dq ~/.mutt/passwd.gpg |"
+source "~/.mutt/work"
+folder-hook $folder 'source ~/.mutt/work'
+source "~/.mutt/personal"
+folder-hook $folder 'source ~/.mutt/personal'
+
+# encryption settings
+source "~/.mutt/gpg.rc"
+set pgp_use_gpg_agent=yes
+set crypt_autosign=yes
+
+# mailbox settings
+set mail_check=60
+set imap_keepalive=300
+unset imap_passive
+
+# mail settings
+set charset="utf-8"
+set send_charset="utf-8"
+set fast_reply=yes
+set include=yes
+
+# alias settings
+set alias_file="~/.mutt/aliases"
+set sort_alias=alias
+set reverse_alias=yes
+source $alias_file
+
+# mailcap settings
+set mailcap_path="~/.mutt/mailcap"
+auto_view text/html
+alternative_order text/plain text/html
+
+# index settings
+push <collapse-all><last-entry>
+
+# color settings
+source "~/.mutt/highlight"
+
+# index keybinds
+bind index <f5> imap-fetch-mail
+bind index p sidebar-toggle-visible
+bind index <Space> sidebar-open
+bind index \Cn sidebar-next
+bind index \Cp sidebar-prev
+
+# index macros
+macro index \' "<tag-pattern>~R !~D !~F<enter>\
+<tag-prefix><save-message>+[Gmail]/All <enter>" \
+"Archive"
