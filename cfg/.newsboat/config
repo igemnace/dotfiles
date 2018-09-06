@@ -1,0 +1,13 @@
+auto-reload yes
+reload-time 0
+
+bind-key J next-feed
+bind-key K prev-feed
+bind-key j next
+bind-key k prev
+
+color listfocus yellow color15
+color listfocus_unread yellow color15 bold
+color info color8 color15
+
+browser "w3m %u"
