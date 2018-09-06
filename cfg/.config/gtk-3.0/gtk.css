@@ -33,9 +33,4 @@
     -GtkHTML-link-color: #6699cc;
     -GtkHTML-vlink-color: #cc99cc;
     -GtkHTML-cite-color: #99cc99;
-
-    -GtkWidget-link-color: #6699cc;
-    -GtkWidget-visited-link-color: #cc99cc;
 }
-
-@import url("resource:///org/gnome/HighContrastInverse/a11y.css");
