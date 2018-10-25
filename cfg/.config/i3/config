@@ -14,7 +14,8 @@ bindsym $mod+Shift+b exec lk4b
 
 # pass
 mode "pass" {
-        bindsym p mode "default"; exec rofi-pass
+        bindsym p mode "default"; exec rofi-pass-clip
+        bindsym t mode "default"; exec rofi-pass-type
         bindsym a mode "default"; exec urxvt -g 80x5 -name floating -e add-pass
 
         bindsym Escape mode "default"
