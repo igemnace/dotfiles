@@ -1,4 +1,5 @@
 auto-reload no
+refresh-on-startup yes
 
 bind-key J next-feed
 bind-key K prev-feed
