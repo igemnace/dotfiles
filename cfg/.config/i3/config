@@ -29,7 +29,7 @@ bindsym $mod+c exec urxvt -name floating -e calcurse
 bindsym $mod+equal exec urxvt -name floating -e qalc
 
 # wifi
-bindsym $mod+Shift+w exec urxvt -g 80x12 -name floating -e fzf-nmcli
+bindsym $mod+Shift+w exec rofi-nmcli
 
 # monitor
 bindsym $mod+Shift+m exec rofi-mons
