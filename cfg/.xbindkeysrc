@@ -18,3 +18,5 @@
 	Mod4 + End
 "screenscrot"
 	Print
+"locknotify"
+	Shift + Shift_L
