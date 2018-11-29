@@ -92,10 +92,12 @@ bindsym $mod+Mod1+j move workspace to output down
 bindsym $mod+Mod1+k move workspace to output up
 bindsym $mod+Mod1+l move workspace to output right
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-bindsym $mod+r mode "resize"
+assign [class="Vivaldi"]            "3:"
+assign [class="Google-chrome"]      "3:"
+assign [class="Firefox"]            "3:"
+assign [class="Runescape"]          "4:"
+assign [class="RuneScape"]          "4:"
+assign [class="jagexappletviewer"]  "4:"
 
 # META KEYBINDS
 bindsym $mod+Shift+c reload
