@@ -1,107 +1,70 @@
-# set Super as mod key
 set $mod Mod4
 
-### APPLICATION KEYBINDS
-
-# terminal
-bindsym $mod+Return exec urxvt
-
-# menu
-bindsym $mod+space exec rofi -modi run#window -show run
-
-# lk4b (lock keyboard 4 baby)
-bindsym $mod+Shift+b exec lk4b
-
-# pass
-mode "pass" {
-        bindsym p mode "default"; exec rofi-pass-clip
-        bindsym t mode "default"; exec rofi-pass-type
-        bindsym a mode "default"; exec urxvt -g 80x5 -name floating -e add-pass
-
-        bindsym Escape mode "default"
-}
-bindsym $mod+p mode "pass"
-
-# calendar
-bindsym $mod+c exec urxvt -name floating -e calcurse
-
-# calculator
-bindsym $mod+equal exec urxvt -name floating -e qalc
-
-# wifi
-bindsym $mod+Shift+w exec rofi-nmcli
-
-# monitor
-bindsym $mod+Shift+m exec rofi-mons
-
-# music
-bindsym $mod+m exec cmus-notify
-
-# todo
-mode "todo" {
-        bindsym a mode "default"; exec urxvt -g 80x1 -name floating -e todo add
-        bindsym l mode "default"; exec urxvt -name floating --hold -e todo ls -p
-        bindsym d mode "default"; exec urxvt -name floating -e todo done --fzf
-        bindsym x mode "default"; exec urxvt -name floating --hold -e todo ctx
-        bindsym p mode "default"; exec urxvt -name floating --hold -e todo proj
-
-        bindsym Escape mode "default"
-}
-bindsym $mod+t mode "todo"
+# APPLICATION KEYBINDS
 for_window [class="URxvt" instance="floating"] floating enable border pixel 2
 
-### WINDOW MANAGEMENT KEYBINDS
-# kill
-bindsym $mod+Shift+q kill
+bindsym $mod+Return   exec urxvt
+bindsym $mod+space    exec rofi -modi run#window -show run
+bindsym $mod+Shift+b  exec lk4b
+bindsym $mod+c        exec urxvt -name floating -e calcurse
+bindsym $mod+equal    exec urxvt -name floating -e qalc
+bindsym $mod+Shift+w  exec rofi-nmcli
+bindsym $mod+Shift+m  exec rofi-mons
+bindsym $mod+m        exec cmus-notify
 
-# focus
-bindsym $mod+h focus left
-bindsym $mod+j focus down
-bindsym $mod+k focus up
-bindsym $mod+l focus right
+bindsym $mod+p mode "pass"
+mode "pass" {
+        bindsym p       mode "default"; exec rofi-pass-clip
+        bindsym t       mode "default"; exec rofi-pass-type
+        bindsym a       mode "default"; exec urxvt -g 80x5 -name floating -e add-pass
 
-# move window
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+        bindsym Escape  mode "default"
+}
 
-# toggle sticky
-bindsym $mod+Shift+s sticky toggle
+bindsym $mod+t mode "todo"
+mode "todo" {
+        bindsym a       mode "default"; exec urxvt -g 80x1 -name floating -e todo add
+        bindsym l       mode "default"; exec urxvt -name floating --hold -e todo ls -p
+        bindsym d       mode "default"; exec urxvt -name floating -e todo done --fzf
+        bindsym x       mode "default"; exec urxvt -name floating --hold -e todo ctx
+        bindsym p       mode "default"; exec urxvt -name floating --hold -e todo proj
+        bindsym Escape  mode "default"
+}
 
-# move workspaces
-bindsym $mod+Mod1+h move workspace to output left
-bindsym $mod+Mod1+j move workspace to output down
-bindsym $mod+Mod1+k move workspace to output up
-bindsym $mod+Mod1+l move workspace to output right
-
-# split in horizontal orientation
-bindsym $mod+| split h
-
-# split in vertical orientation
-bindsym $mod+- split v
-
-# fullscreen
-bindsym $mod+f fullscreen toggle
-
-# change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
-
-# toggle tiling / floating
-bindsym $mod+Shift+t floating toggle
-
-# change focus between tiling / floating windows
-bindsym $mod+Mod1+t focus mode_toggle
-
-# Use Mouse+$mod to drag floating windows to their wanted position
+# WINDOW MANAGEMENT
 floating_modifier $mod
 
-# focus the parent container
-bindsym $mod+a focus parent
+bindsym $mod+Shift+q  kill
+bindsym $mod+Shift+s  sticky toggle
+bindsym $mod+f        fullscreen toggle
+bindsym $mod+Shift+t  floating toggle
+bindsym $mod+Mod1+t   focus mode_toggle
+bindsym $mod+a        focus parent
+bindsym $mod+h        focus left
+bindsym $mod+j        focus down
+bindsym $mod+k        focus up
+bindsym $mod+l        focus right
+bindsym $mod+Shift+h  move left
+bindsym $mod+Shift+j  move down
+bindsym $mod+Shift+k  move up
+bindsym $mod+Shift+l  move right
+bindsym $mod+|        split h
+bindsym $mod+-        split v
+bindsym $mod+s        layout stacking
+bindsym $mod+w        layout tabbed
+bindsym $mod+e        layout toggle split
 
-# switch workspace
+bindsym $mod+r mode "resize"
+mode "resize" {
+        bindsym h       resize shrink width 10 px or 10 ppt
+        bindsym j       resize grow height 10 px or 10 ppt
+        bindsym k       resize shrink height 10 px or 10 ppt
+        bindsym l       resize grow width 10 px or 10 ppt
+        bindsym Return  mode "default"
+        bindsym Escape  mode "default"
+}
+
+# WORKSPACE MANAGEMENT
 bindsym $mod+1 workspace "1:"
 bindsym $mod+2 workspace "2:"
 bindsym $mod+3 workspace "3:"
@@ -113,7 +76,6 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-# move to workspace
 bindsym $mod+Shift+1 move container to workspace "1:"
 bindsym $mod+Shift+2 move container to workspace "2:"
 bindsym $mod+Shift+3 move container to workspace "3:"
@@ -125,39 +87,33 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-# resize
-mode "resize" {
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+bindsym $mod+Mod1+h move workspace to output left
+bindsym $mod+Mod1+j move workspace to output down
+bindsym $mod+Mod1+k move workspace to output up
+bindsym $mod+Mod1+l move workspace to output right
 
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
 
-### MISC KEYBINDS
-# reload the configuration file
+# META KEYBINDS
 bindsym $mod+Shift+c reload
-
-# restart i3
 bindsym $mod+Shift+r restart
 
-mode "exit" {
-        bindsym x mode "default"; exec systemctl poweroff
-        bindsym r mode "default"; exec systemctl reboot
-        bindsym e mode "default"; exec i3-msg exit
-        bindsym s mode "default"; exec systemctl suspend
-        bindsym h mode "default"; exec systemctl hibernate
-        bindsym l mode "default"; exec i3lock -u --image=$HOME/Pictures/Wallpapers/Moria.png
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
 bindsym $mod+Shift+x mode "exit"
+mode "exit" {
+        bindsym x       mode "default"; exec systemctl poweroff
+        bindsym r       mode "default"; exec systemctl reboot
+        bindsym e       mode "default"; exec i3-msg exit
+        bindsym s       mode "default"; exec systemctl suspend
+        bindsym h       mode "default"; exec systemctl hibernate
+        bindsym l       mode "default"; exec lockscreen
+        bindsym Return  mode "default"
+        bindsym Escape  mode "default"
+}
 
-### BAR
+# BAR
 bar {
         position top
         font pango:Roboto Mono Light, FontAwesome 9
@@ -165,21 +121,20 @@ bar {
         status_command i3status
         separator_symbol "•"
         colors {
-                background #2d2d2d
-                statusline #d3d0c8
-
-                focused_workspace #2d2d2d #2d2d2d #ffcc66
-                urgent_workspace #2d2d2d #2d2d2d #cc99cc
-                active_workspace #2d2d2d #2d2d2d #747369
-                inactive_workspace #2d2d2d #2d2d2d #747369
+                background          #2d2d2d
+                statusline          #d3d0c8
+                focused_workspace   #2d2d2d #2d2d2d #ffcc66
+                urgent_workspace    #2d2d2d #2d2d2d #cc99cc
+                active_workspace    #2d2d2d #2d2d2d #747369
+                inactive_workspace  #2d2d2d #2d2d2d #747369
         }
 }
 
-### COLORS AND FONTS
+# STYLE
 font pango:Roboto Mono Light 9
 new_window none
 focus_follows_mouse no
-client.focused #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
-client.focused_inactive #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
-client.unfocused #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
-client.urgent #2d2d2d #2d2d2d #cc99cc #cc99cc #2d2d2d
+client.focused           #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
+client.focused_inactive  #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
+client.unfocused         #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
+client.urgent            #2d2d2d #2d2d2d #cc99cc #cc99cc #2d2d2d
