@@ -35,24 +35,28 @@ repo:
 
 ## Pre-Installation
 
-The dotfiles are for the following programs:
+The dotfiles are for the following:
 
-- ALSA with PulseAudio
+- bat
+- cli-visualizer
 - cmus
+- dunst
 - feh
+- git
 - GTK 2.0
 - GTK 3.0
 - i3
-- i3bar
-- i3lock
 - i3status
-- light (for brightness)
+- mutt
+- newsboat
 - rofi
+- rtv
 - rxvt-unicode
-- Xbindkeys
-- Xcape
+- xbindkeys
+- xinit
 - Xmodmap
-- Xorg
+- Xresources
+- zathura
 
 ## Installation
 
