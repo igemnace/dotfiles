@@ -35,7 +35,7 @@ xbindkeys &
 # set up xautolock
 xset -dpms &
 xset s off &
-xautolock -time 15 -locker "i3lock -u --image=$HOME/Pictures/Wallpapers/Moria.png" &
+xautolock -time 15 -locker lockscreen &
 
 # start some nice programs
 
