@@ -1,0 +1,9 @@
+xterm.vt100.metaSendsEscape: true
+xterm.vt100.backarrowKey: false
+xterm.ttyModes: erase ^?
+xterm.vt100.saveLines: 0
+xterm.vt100.faceName: Roboto Mono Light
+xterm.vt100.faceSize: 9
+xterm*VT100*translations: #override \n\
+    Ctrl Meta <Key>v:  insert-selection(CLIPBOARD) \n\
+    Ctrl Meta <Key>c:  copy-selection(CLIPBOARD)
