@@ -11,6 +11,7 @@ bindsym $mod+equal    exec urxvt -name floating -e qalc
 bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec cmus-notify
+bindsym $mod+u        exec rofimoji
 
 bindsym $mod+p mode "pass"
 mode "pass" {
