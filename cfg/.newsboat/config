@@ -6,8 +6,8 @@ bind-key K prev-feed
 bind-key j next
 bind-key k prev
 
-color listfocus yellow color15
-color listfocus_unread yellow color15 bold
-color info color8 color15
+color listfocus yellow color237
+color listfocus_unread yellow color237 bold
+color info color8 color237
 
 browser "w3m %u"

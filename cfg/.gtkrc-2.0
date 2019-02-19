@@ -60,9 +60,9 @@ style "default"
   base[NORMAL]    = "#2d2d2d"
 
   fg[INSENSITIVE]      = "#a09f93"
-  bg[INSENSITIVE]      = "#393939"
+  bg[INSENSITIVE]      = "#3a3a3a"
   text[INSENSITIVE]    = "#a09f93"
-  base[INSENSITIVE]    = "#393939"
+  base[INSENSITIVE]    = "#3a3a3a"
 
   fg[PRELIGHT]    = "#2d2d2d"
   text[PRELIGHT]  = "#2d2d2d"
