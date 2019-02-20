@@ -1,0 +1,37 @@
+bind generic Y !@sh -c "printf '%s' %(commit) | xsel -b"
+
+# general
+color cursor yellow color237
+color status white black
+color title-focus color8 color237
+color title-blur color8 color237
+color search-result color8 color237 reverse
+color header color8 black
+color line-number color8 black
+color date color8 black
+color author blue black
+color mode color8 black
+
+# main view
+color graph-commit color8 black
+color main-head magenta black
+color main-tracked magenta black
+color main-remote magenta black
+color main-tag cyan black
+color main-local-tag cyan black
+color main-ref magenta black
+
+# status view
+color stat-staged green black
+color stat-unstaged red black
+color stat-untracked red black
+
+# help view
+color help-group white black
+color help-action green black
+
+# pretty print
+color pp-refs color8 black
+
+# commit header
+color commit color8 black

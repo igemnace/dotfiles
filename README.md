@@ -34,6 +34,7 @@ repo:
 
 The dotfiles are for the following:
 
+- bash
 - bat
 - cli-visualizer
 - cmus
@@ -42,13 +43,16 @@ The dotfiles are for the following:
 - git
 - GTK 2.0
 - GTK 3.0
+- hg
 - i3
 - i3status
 - mutt
+- nethack
 - newsboat
 - rofi
 - rtv
 - rxvt-unicode
+- tig
 - xbindkeys
 - xinit
 - Xmodmap
