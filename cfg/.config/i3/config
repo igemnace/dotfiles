@@ -3,7 +3,7 @@ set $mod Mod4
 # APPLICATION KEYBINDS
 for_window [class="URxvt" instance="floating"] floating enable border pixel 2
 
-bindsym $mod+Return   exec urxvt
+bindsym $mod+Return   exec st
 bindsym $mod+space    exec rofi -modi run#window -show run
 bindsym $mod+Shift+b  exec lk4b
 bindsym $mod+c        exec urxvt -name floating -e calcurse
