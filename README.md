@@ -2,12 +2,9 @@
 
 ## Note
 
-This repo is full of cruft, hard-coding, hacks, and whatnot. I might have been
-proud of my dotfiles at some point in time, but as I've grown in learning, I've
-come to realize that **none** of what I do here is done elegantly.
-
-I'll be giving as much effort as I can spare to remedy this, but that's not
-saying much. It'll take me quite a bit of time to clean this up.
+These are my *personal* dotfiles. They suit me very well, and I take care of
+them (for the most part), but I can't really guarantee that they will fit
+someone else.
 
 To anyone else reading this, you are free to steal a snippet or two if you like
 something; I leave it to your good judgment. **Caveat emptor.**
@@ -25,8 +22,8 @@ following repos:
 - [tmux-config](https://github.com/igemnace/tmux-config)
 - [vim-config](https://github.com/igemnace/vim-config)
 
-I'm also starting out with Emacs. (Update: Heh. 4 months into the future, still
-"starting out with Emacs"!)
+I'm also starting out with Emacs. (Update: This was more than a year ago.  I
+guess I'll just accept that I'm forever "starting out with Emacs"!)
 
 My Emacs config isn't as rich as the above, but it's still hosted on its own
 repo:
@@ -60,10 +57,11 @@ The dotfiles are for the following:
 
 ## Installation
 
-There's an `install` script, but I don't recommend it.
+There's an `install` script, but I don't recommend it. Except for me, of course.
+If you're me, run `./install` from project root to get set up.
 
-Better to just grab bits and pieces, then place in their proper locations
-(`cfg/` follows `$HOME` directory structure).
+If you're not me, better to just grab bits and pieces, then place in their
+proper locations (`cfg/` follows `$HOME` directory structure).
 
 ## Licensing
 
