@@ -3,11 +3,11 @@ set $mod Mod4
 # APPLICATION KEYBINDS
 for_window [class="URxvt" instance="floating"] floating enable border pixel 2
 
-bindsym $mod+Return   exec st
+bindsym $mod+Return   exec urxvtc
 bindsym $mod+space    exec rofi -modi run#window -show run
 bindsym $mod+Shift+b  exec lk4b
-bindsym $mod+c        exec urxvt -name floating -e calcurse
-bindsym $mod+equal    exec urxvt -name floating -e qalc
+bindsym $mod+c        exec urxvtc -name floating -e calcurse
+bindsym $mod+equal    exec urxvtc -name floating -e qalc
 bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec cmus-notify
@@ -17,18 +17,18 @@ bindsym $mod+p mode "pass"
 mode "pass" {
         bindsym p       mode "default"; exec rofi-pass-clip
         bindsym t       mode "default"; exec rofi-pass-type
-        bindsym a       mode "default"; exec urxvt -g 80x5 -name floating -e add-pass
+        bindsym a       mode "default"; exec urxvtc -g 80x5 -name floating -e add-pass
         bindsym g       mode "default"; exec gen-pass
         bindsym Escape  mode "default"
 }
 
 bindsym $mod+t mode "todo"
 mode "todo" {
-        bindsym a       mode "default"; exec urxvt -g 80x1 -name floating -e todo add
-        bindsym l       mode "default"; exec urxvt -name floating --hold -e todo ls -p
-        bindsym d       mode "default"; exec urxvt -name floating -e todo done --fzf
-        bindsym x       mode "default"; exec urxvt -name floating --hold -e todo ctx
-        bindsym p       mode "default"; exec urxvt -name floating --hold -e todo proj
+        bindsym a       mode "default"; exec urxvtc -g 80x1 -name floating -e todo add
+        bindsym l       mode "default"; exec urxvtc -name floating --hold -e todo ls -p
+        bindsym d       mode "default"; exec urxvtc -name floating -e todo done --fzf
+        bindsym x       mode "default"; exec urxvtc -name floating --hold -e todo ctx
+        bindsym p       mode "default"; exec urxvtc -name floating --hold -e todo proj
         bindsym Escape  mode "default"
 }
 
