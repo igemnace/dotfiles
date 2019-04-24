@@ -3,12 +3,11 @@ https://www.archlinux.org/feeds/news/
 https://vivaldi.com/feed/
 http://services.runescape.com/m=news/latest_news.rss
 http://services.runescape.com/m=news/latest_news.rss?oldschool=true
-https://github.com/babel/babel-eslint/releases.atom
-https://github.com/okcompute/es-ctags/releases.atom
-https://github.com/firebase/bolt/releases.atom
-https://github.com/CircleCI-Public/circleci-cli/releases.atom
-https://github.com/Rich-Harris/degit/releases.atom
-https://www.youtube.com/feeds/videos.xml?channel_id=UClq42foiSgl7sSpLupnugGA Youtube
+https://github.com/babel/babel-eslint/releases.atom "Github Releases"
+https://github.com/okcompute/es-ctags/releases.atom "Github Releases"
+https://github.com/firebase/bolt/releases.atom "Github Releases"
+https://github.com/CircleCI-Public/circleci-cli/releases.atom "Github Releases"
+https://github.com/Rich-Harris/degit/releases.atom "Github Releases"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCs-w7E2HZWwXmjt9RTvBB_A Youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCIc3VLtBvQD0KqttqEJ4KYw Youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC24mcJ1pow5eqFao5vKR-iA Youtube
