@@ -1,8 +1,6 @@
 set $mod Mod4
 
 # APPLICATION KEYBINDS
-for_window [class="URxvt" instance="floating"] floating enable border pixel 2
-
 bindsym $mod+Return   exec urxvtc
 bindsym $mod+space    exec rofi -modi run#window -show run
 bindsym $mod+Shift+b  exec lk4b
@@ -93,12 +91,17 @@ bindsym $mod+Mod1+j move workspace to output down
 bindsym $mod+Mod1+k move workspace to output up
 bindsym $mod+Mod1+l move workspace to output right
 
+# APPLICATION-SPECIFIC CONFIG
+for_window [class="URxvt" instance="floating"] floating enable border pixel 2
+for_window [class="Flashplayer"] floating enable
+
 assign [class="Vivaldi"]            "3:"
 assign [class="Google-chrome"]      "3:"
 assign [class="Firefox"]            "3:"
 assign [class="Runescape"]          "4:"
 assign [class="RuneScape"]          "4:"
 assign [class="jagexappletviewer"]  "4:"
+assign [class="Flashplayer"]        "4:"
 
 # META KEYBINDS
 bindsym $mod+Shift+c reload
