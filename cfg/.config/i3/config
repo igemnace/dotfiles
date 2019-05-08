@@ -126,6 +126,8 @@ bar {
         strip_workspace_numbers yes
         status_command i3status
         separator_symbol "•"
+        bindsym button4 nop
+        bindsym button5 nop
         colors {
                 background          #2d2d2d
                 statusline          #d3d0c8
