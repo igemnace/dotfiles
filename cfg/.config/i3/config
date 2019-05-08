@@ -92,7 +92,7 @@ bindsym $mod+Mod1+k move workspace to output up
 bindsym $mod+Mod1+l move workspace to output right
 
 # APPLICATION-SPECIFIC CONFIG
-for_window [class="URxvt" instance="floating"] floating enable border pixel 2
+for_window [class="URxvt" instance="floating"] floating enable border normal 0
 for_window [class="Flashplayer"] floating enable
 
 assign [class="Vivaldi"]            "3:"
@@ -140,7 +140,9 @@ bar {
 
 # STYLE
 font pango:Roboto Mono Light 9
-new_window none
+default_border none
+default_floating_border normal 1
+hide_edge_borders both
 focus_follows_mouse no
 client.focused           #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
 client.focused_inactive  #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
