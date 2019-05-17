@@ -8,13 +8,13 @@
 	XF86MonBrightnessUp
 "light -U 5%"
 	XF86MonBrightnessDown
-"cmus-remote --next"
+"mpc next"
 	Mod4 + Next
-"cmus-remote --prev"
+"mpc prev"
 	Mod4 + Prior
-"cmus-remote --pause"
+"mpc toggle"
 	Mod4 + Home
-"cmus-remote --stop"
+"mpc stop"
 	Mod4 + End
 "screenscrot"
 	Print
