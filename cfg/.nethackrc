@@ -1,1 +1,1 @@
-OPTIONS=altmeta,!autopickup,!cmdassist,hilite_pet
+OPTIONS=altmeta,!autopickup,!cmdassist,hilite_pet,color
