@@ -39,7 +39,7 @@ tztime local {
 }
 
 volume master {
-        device = "pulse:0"
+        device = "pulse"
         format = "  %volume"
         format_muted = "  %volume"
 }
