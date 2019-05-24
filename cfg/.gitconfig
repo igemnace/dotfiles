@@ -10,3 +10,5 @@
 [alias]
 	unstage = reset HEAD
 	discard = checkout
+[commit]
+	verbose = 1
