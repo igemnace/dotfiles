@@ -53,6 +53,8 @@ bindsym $mod+s        layout stacking
 bindsym $mod+w        layout tabbed
 bindsym $mod+e        layout toggle split
 
+workspace_layout tabbed
+
 bindsym $mod+r mode "resize"
 mode "resize" {
         bindsym h       resize shrink width 10 px or 10 ppt
