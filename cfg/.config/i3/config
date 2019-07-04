@@ -8,7 +8,7 @@ bindsym $mod+c        exec urxvtc -g 64x9 -name floating -e ical
 bindsym $mod+equal    exec urxvtc -name floating -e qalc
 bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
-bindsym $mod+m        exec cmus-notify
+bindsym $mod+m        exec mpd-notify
 bindsym $mod+u        exec rofimoji
 
 bindsym $mod+p mode "pass"
