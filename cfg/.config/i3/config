@@ -10,6 +10,7 @@ bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec mpd-notify
 bindsym $mod+u        exec rofimoji
+bindsym $mod+v        exec urxvtc -g 40x20 -name floating -e quicknote
 
 bindsym $mod+p mode "pass"
 mode "pass" {
@@ -92,6 +93,9 @@ bindsym $mod+Mod1+h move workspace to output left
 bindsym $mod+Mod1+j move workspace to output down
 bindsym $mod+Mod1+k move workspace to output up
 bindsym $mod+Mod1+l move workspace to output right
+
+bindsym $mod+Shift+v move scratchpad
+bindsym $mod+Mod1+v scratchpad show
 
 # APPLICATION-SPECIFIC CONFIG
 for_window [class="URxvt" instance="floating"] floating enable border normal 0
