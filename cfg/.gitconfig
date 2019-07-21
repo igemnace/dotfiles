@@ -12,3 +12,5 @@
 	discard = checkout
 [commit]
 	verbose = 1
+[diff]
+	algorithm = patience
