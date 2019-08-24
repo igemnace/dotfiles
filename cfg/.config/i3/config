@@ -8,7 +8,9 @@ bindsym $mod+c        exec urxvtc -g 64x9 -name floating -e ical
 bindsym $mod+equal    exec urxvtc -name floating -e qalc
 bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
-bindsym $mod+m        exec mpd-notify
+bindsym $mod+m        exec rofi-mpc-playlist
+bindsym $mod+Mod1+m   exec rofi-mpc-library
+bindsym $mod+comma    exec mpd-notify
 bindsym $mod+u        exec rofimoji
 bindsym $mod+v        exec urxvtc -g 40x20 -name floating -e quicknote
 
