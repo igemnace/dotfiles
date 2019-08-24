@@ -35,11 +35,11 @@ battery all {
 }
 
 tztime local {
-        format = "  %a %e %b %H:%M"
+        format = " %a %e %b %H:%M"
 }
 
 volume master {
         device = "pulse"
-        format = "  %volume"
-        format_muted = "  %volume"
+        format = " %volume"
+        format_muted = " %volume"
 }
