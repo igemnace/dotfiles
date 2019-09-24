@@ -107,8 +107,8 @@ for_window [class="Flashplayer"] floating enable
 assign [class="Vivaldi"]            "3:"
 assign [class="Google-chrome"]      "3:"
 assign [class="Firefox"]            "3:"
-assign [class="Runescape"]          "4:"
-assign [class="RuneScape"]          "4:"
+assign [class="(?i)runescape"]      "4:"
+assign [class="(?i)runelite"]       "4:"
 assign [class="jagexappletviewer"]  "4:"
 assign [class="Flashplayer"]        "4:"
 
