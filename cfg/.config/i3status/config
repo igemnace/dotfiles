@@ -15,12 +15,18 @@ general {
 }
 
 order += "wireless _first_"
+order += "ethernet _first_"
 order += "battery all"
 order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
         format_up = " %essid [%ip]"
+        format_down = ""
+}
+
+ethernet _first_ {
+        format_up = " Ethernet [%ip]"
         format_down = ""
 }
 
