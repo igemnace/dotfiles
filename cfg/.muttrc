@@ -12,7 +12,7 @@ set crypt_autosign=yes
 
 # mailbox settings
 set mail_check=60
-set imap_keepalive=300
+set imap_keepalive=30
 unset imap_passive
 
 # mail settings
