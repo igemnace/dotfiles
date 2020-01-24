@@ -12,5 +12,6 @@
 	discard = checkout
 [commit]
 	verbose = 1
+	gpgSign = true
 [diff]
 	algorithm = patience
