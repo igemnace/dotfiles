@@ -112,6 +112,7 @@ assign [class="(?i)runescape"]      "4:"
 assign [class="(?i)runelite"]       "4:"
 assign [class="jagexappletviewer"]  "4:"
 assign [class="Flashplayer"]        "4:"
+assign [class="(?i)zoom"]           "5:"
 
 # META KEYBINDS
 bindsym $mod+Shift+c reload
