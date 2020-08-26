@@ -15,3 +15,5 @@
 	gpgSign = true
 [diff]
 	algorithm = patience
+[pull]
+	rebase = false
