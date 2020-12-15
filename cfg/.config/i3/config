@@ -122,6 +122,7 @@ bindsym $mod+Shift+x mode "exit"
 mode "exit" {
         bindsym x       mode "default"; exec systemctl poweroff
         bindsym r       mode "default"; exec systemctl reboot
+        bindsym w       mode "default"; exec systemctl reboot --boot-loader-entry=win.conf
         bindsym e       mode "default"; exec i3-msg exit
         bindsym s       mode "default"; exec systemctl suspend
         bindsym h       mode "default"; exec systemctl hibernate
