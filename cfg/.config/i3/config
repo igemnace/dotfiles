@@ -3,7 +3,6 @@ set $mod Mod4
 # APPLICATION KEYBINDS
 bindsym $mod+Return   exec st
 bindsym $mod+space    exec rofi -modi run#window -show run
-bindsym $mod+Shift+b  exec lk4b
 bindsym $mod+c        exec urxvtc -g 64x9 -name floating -e ical
 bindsym $mod+equal    exec urxvtc -name floating -e qalc
 bindsym $mod+Shift+w  exec rofi-nmcli
