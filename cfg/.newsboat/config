@@ -1,5 +1,6 @@
 auto-reload no
 refresh-on-startup yes
+max-items 1000
 
 bind-key J next-feed
 bind-key K prev-feed
