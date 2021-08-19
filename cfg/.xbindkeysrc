@@ -18,7 +18,7 @@
 	Mod4 + End
 "screenscrot"
 	Print
-"screenscrot -s -n"
+"flameshot gui"
 	Shift + Print
 "locknotify"
 	Shift + Shift_L
