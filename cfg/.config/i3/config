@@ -14,6 +14,7 @@ bindsym $mod+u        exec rofimoji
 bindsym $mod+v        exec urxvtc -name floating -e quicknote
 bindsym $mod+b        exec vivaldi-quick-commands
 bindsym $mod+Mod1+x   exec locktoggle
+bindsym $mod+Mod1+c   exec compositor-toggle
 bindsym $mod+Shift+u  exec rofi-umount
 
 bindsym $mod+p mode "pass"
