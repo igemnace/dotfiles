@@ -10,7 +10,7 @@ bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec rofi-mpc-playlist
 bindsym $mod+Mod1+m   exec rofi-mpc-library
 bindsym $mod+comma    exec mpd-notify
-bindsym $mod+u        exec rofimoji
+bindsym $mod+u        exec rofimoji --action clipboard
 bindsym $mod+v        exec urxvtc -name floating -e quicknote
 bindsym $mod+b        exec vivaldi-quick-commands
 bindsym $mod+Mod1+x   exec locktoggle
