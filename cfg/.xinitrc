@@ -56,4 +56,7 @@ xset b 100 &
 # set up a wallpaper
 feh --bg-scale "$HOME/Pictures/Wallpapers/Elbereth.png" &
 
+# start picom
+picom &
+
 exec i3

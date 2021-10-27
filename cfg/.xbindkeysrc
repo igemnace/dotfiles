@@ -22,3 +22,9 @@
 	Shift + Print
 "locknotify"
 	Shift + Shift_L
+"dunstctl close"
+	Mod4 + Escape
+"dunstctl close-all"
+	Mod4 + Shift + Escape
+"dunstctl history-pop"
+	Mod4 + Mod1 + Escape
