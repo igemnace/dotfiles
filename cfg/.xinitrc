@@ -47,6 +47,9 @@ fi
 # check archwiki page why urxvtd is started here instead of in a systemd service
 urxvtd -q -f -o &
 
+# start playerctld
+playerctld daemon &
+
 # let PulseAudio manage the bell event
 pactl upload-sample /usr/share/sounds/freedesktop/stereo/bell.oga x11-bell
 pactl load-module module-x11-bell sample=x11-bell display="$DISPLAY" &

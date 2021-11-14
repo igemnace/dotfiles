@@ -8,14 +8,22 @@
 	XF86MonBrightnessUp
 "light -U 5%"
 	XF86MonBrightnessDown
-"mpc next"
+"playerctl next"
 	Mod4 + Next
-"mpc prev"
+"playerctl previous"
 	Mod4 + Prior
-"mpc toggle"
+"playerctl play-pause"
 	Mod4 + Home
-"mpc stop"
+"playerctl stop"
 	Mod4 + End
+"playerctl next"
+	XF86AudioNext
+"playerctl previous"
+	XF86AudioPrev
+"playerctl play-pause"
+	XF86AudioPlay
+"playerctl stop"
+	XF86AudioStop
 "screenscrot"
 	Print
 "flameshot gui"
