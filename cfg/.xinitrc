@@ -32,8 +32,7 @@ xcape -t 200 &
 xbindkeys &
 
 # set up xautolock
-xset -dpms &
-xset s off &
+xset s 900 &
 xautolock -time 15 -locker lockscreen &
 
 # start some nice programs
