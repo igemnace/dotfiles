@@ -1,12 +1,12 @@
-"sh -c 'pactl set-sink-mute @DEFAULT_SINK@ false ; pactl set-sink-volume @DEFAULT_SINK@ +5%'"
+"volume-notify inc 5%"
 	XF86AudioRaiseVolume
-"sh -c 'pactl set-sink-mute @DEFAULT_SINK@ false ; pactl set-sink-volume @DEFAULT_SINK@ -5%'"
+"volume-notify dec 5%"
 	XF86AudioLowerVolume
-"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+"volume-notify mute"
 	XF86AudioMute
-"light -A 5%"
+"light-notify -A 5%"
 	XF86MonBrightnessUp
-"light -U 5%"
+"light-notify -U 5%"
 	XF86MonBrightnessDown
 "playerctl next"
 	Mod4 + Next
