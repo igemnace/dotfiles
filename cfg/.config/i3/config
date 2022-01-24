@@ -118,6 +118,8 @@ assign [class="(?i)discord"]        "4:"
 assign [class="(?i)mage-client"]    "4:"
 assign [class="jagexappletviewer"]  "4:"
 assign [class="Flashplayer"]        "4:"
+assign [class="(?i)wine"]           "4:"
+assign [class="(?i)lutris"]         "4:"
 assign [class="(?i)zoom"]           "5:"
 
 # META KEYBINDS
