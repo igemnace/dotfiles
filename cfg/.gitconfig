@@ -17,3 +17,5 @@
 	algorithm = patience
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
