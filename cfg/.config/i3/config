@@ -17,6 +17,14 @@ bindsym $mod+Mod1+x   exec locktoggle
 bindsym $mod+Mod1+c   exec compositor-toggle
 bindsym $mod+Shift+u  exec rofi-umount
 
+bindsym $mod+Mod1+s mode "start"
+mode "start" {
+        bindsym s       mode "default"; exec start
+        bindsym w       mode "default"; exec start browser discord update
+        bindsym a       mode "default"; exec start browser update
+        bindsym Escape  mode "default"
+}
+
 bindsym $mod+p mode "pass"
 mode "pass" {
         bindsym p       mode "default"; exec rofi-pass-clip
