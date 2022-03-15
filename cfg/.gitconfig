@@ -19,3 +19,5 @@
 	rebase = false
 [init]
 	defaultBranch = main
+[log]
+	date = format:%a %d %b %Y %I:%M %p %z

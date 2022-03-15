@@ -1,5 +1,6 @@
 bind generic Y !@sh -c "printf '%s' %(commit) | xsel -b"
 
+## COLORS
 # general
 color cursor yellow color237
 color status white black
@@ -30,8 +31,19 @@ color stat-untracked red black
 color help-group white black
 color help-action green black
 
-# pretty print
-color pp-refs color8 black
-
-# commit header
+# commit display (press <CR> on commit in main view. technically diff view)
 color commit color8 black
+color pp-refs color8 black
+color "Author: " blue black
+color "AuthorDate: " color8 black
+color "Commit: " color8 black
+color "CommitDate: " color8 black
+color "---" white black
+
+# diff view
+color diff-stat white black
+color diff-header color8 black
+color diff-chunk color8 black
+color diff-index color8 black
+color "--- " cyan black
+color "+++ " cyan black
