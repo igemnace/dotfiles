@@ -9,13 +9,13 @@
     border-color:                var(background);
 
     // variables
-    background:                  #2d2d2d;
-    foreground:                  #d3d0c8;
+    background:                  #303030;
+    foreground:                  #d0d0d0;
     graybg:                      #3a3a3a;
-    grayfg:                      #747369;
-    magenta:                     #cc99cc;
-    yellow:                      #ffcc66;
-    cyan:                        #66cccc;
+    grayfg:                      #767676;
+    magenta:                     #d787d7;
+    yellow:                      #ffd75f;
+    cyan:                        #5fd7d7;
 
     // active variables
     active-background:           var(background);

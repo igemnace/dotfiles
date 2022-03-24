@@ -1,41 +1,41 @@
 #include ".Xresources.d/rxvt-unicode"
 #include ".Xresources.d/xterm"
 
-/* ! BASE-16 EIGHTIES */
+/* ! HIGHLIGHT */
 /* ! special */
-*.foreground:   #d3d0c8
-*.background:   #2d2d2d
-*.cursorColor:  #d3d0c8
+*.foreground:   #d0d0d0
+*.background:   #303030
+*.cursorColor:  #d0d0d0
 
 ! black
-*.color0:       #2d2d2d
-*.color8:       #747369
+*.color0:       #303030
+*.color8:       #767676
 
 ! red
-*.color1:       #f2777a
-*.color9:       #f2777a
+*.color1:       #ff8787
+*.color9:       #ff8787
 
 ! green
-*.color2:       #99cc99
-*.color10:      #99cc99
+*.color2:       #87d787
+*.color10:      #87d787
 
 ! yellow
-*.color3:       #ffcc66
-*.color11:      #ffcc66
+*.color3:       #ffd75f
+*.color11:      #ffd75f
 
 ! blue
-*.color4:       #6699cc
-*.color12:      #6699cc
+*.color4:       #5f87d7
+*.color12:      #5f87d7
 
 ! magenta
-*.color5:       #cc99cc
-*.color13:      #cc99cc
+*.color5:       #d787d7
+*.color13:      #d787d7
 
 ! cyan
-*.color6:       #66cccc
-*.color14:      #66cccc
+*.color6:       #5fd7d7
+*.color14:      #5fd7d7
 
 ! white
-*.color7:       #d3d0c8
-*.color15:      #d3d0c8
+*.color7:       #d0d0d0
+*.color15:      #d0d0d0
 

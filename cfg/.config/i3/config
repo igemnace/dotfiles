@@ -157,12 +157,12 @@ bar {
         bindsym button4 nop
         bindsym button5 nop
         colors {
-                background          #2d2d2d
-                statusline          #d3d0c8
-                focused_workspace   #2d2d2d #2d2d2d #ffcc66
-                urgent_workspace    #2d2d2d #2d2d2d #cc99cc
-                active_workspace    #2d2d2d #2d2d2d #747369
-                inactive_workspace  #2d2d2d #2d2d2d #747369
+                background          #303030
+                statusline          #d0d0d0
+                focused_workspace   #303030 #303030 #ffd75f
+                urgent_workspace    #303030 #303030 #d787d7
+                active_workspace    #303030 #303030 #767676
+                inactive_workspace  #303030 #303030 #767676
         }
 }
 
@@ -172,7 +172,7 @@ default_border none
 default_floating_border normal 1
 hide_edge_borders both
 focus_follows_mouse no
-client.focused           #2d2d2d #2d2d2d #ffcc66 #cc99cc #747369
-client.focused_inactive  #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
-client.unfocused         #2d2d2d #2d2d2d #747369 #cc99cc #2d2d2d
-client.urgent            #2d2d2d #2d2d2d #cc99cc #cc99cc #2d2d2d
+client.focused           #303030 #303030 #ffd75f #d787d7 #767676
+client.focused_inactive  #303030 #303030 #767676 #d787d7 #303030
+client.unfocused         #303030 #303030 #767676 #d787d7 #303030
+client.urgent            #303030 #303030 #d787d7 #d787d7 #303030
