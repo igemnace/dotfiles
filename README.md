@@ -71,8 +71,12 @@ proper locations (`cfg/` follows `$HOME` directory structure).
 
 If anyone else sees this and wants to use it, go ahead.
 
-This project is licensed under the Unlicense and is entirely under public
-domain.
+This project is open source, licensed under MIT.
+
+Do you remember this project being Unlicensed? Read more about the license
+change [here][license-change].
+
+[license-change]: https://github.com/igemnace/dotfiles/issues/2
 
 ## Screenshots
 
