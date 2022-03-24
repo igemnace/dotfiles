@@ -2,8 +2,6 @@
 source "gpg -dq ~/.mutt/passwd.gpg |"
 source "~/.mutt/work"
 folder-hook $folder 'source ~/.mutt/work'
-source "~/.mutt/personal"
-folder-hook $folder 'source ~/.mutt/personal'
 
 # encryption settings
 source "~/.mutt/gpg.rc"
@@ -46,6 +44,6 @@ bind index \Cn sidebar-next
 bind index \Cp sidebar-prev
 
 # index macros
-macro index \' "<tag-pattern>~R !~D !~F<enter>\
+macro index A "<tag-pattern>~R !~D !~F<enter>\
 <tag-prefix><save-message>+[Gmail]/All <enter>" \
 "Archive"
