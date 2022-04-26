@@ -14,7 +14,7 @@ mailboxes =INBOX
 
 # mail settings
 set smtp_url=smtps://$imap_user:$imap_pass@smtp.gmail.com/
-set realname='Ian Isaac G. Emnace'
+set realname='Ian Emnace'
 set from=igemnace@gmail.com
 set hostname="gmail.com"
 set ssl_force_tls=yes
