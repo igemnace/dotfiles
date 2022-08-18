@@ -142,7 +142,7 @@ mode "exit" {
         bindsym e       mode "default"; exec i3-msg exit
         bindsym s       mode "default"; exec systemctl suspend
         bindsym h       mode "default"; exec systemctl hibernate
-        bindsym l       mode "default"; exec lockscreen
+        bindsym l       mode "default"; exec xset s activate
         bindsym Return  mode "default"
         bindsym Escape  mode "default"
 }
