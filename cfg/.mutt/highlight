@@ -1,2 +1,4 @@
 color status color8 color237
 color indicator yellow color237
+color sidebar_highlight white color237
+color sidebar_indicator bold yellow color237

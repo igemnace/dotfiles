@@ -1,7 +1,6 @@
 # account settings
-source "gpg -dq ~/.mutt/passwd.gpg |"
-source "~/.mutt/work"
-folder-hook $folder 'source ~/.mutt/work'
+source "~/.mutt/config.d/gaming"
+source "~/.mutt/config.d/main"
 
 # encryption settings
 source "~/.mutt/gpg.rc"
@@ -18,6 +17,7 @@ set charset="utf-8"
 set send_charset="utf-8"
 set fast_reply=yes
 set include=yes
+set delete=yes
 
 # alias settings
 set alias_file="~/.mutt/aliases"
@@ -37,13 +37,10 @@ push <collapse-all><last-entry>
 source "~/.mutt/highlight"
 
 # index keybinds
-bind index <f5> imap-fetch-mail
 bind index p sidebar-toggle-visible
 bind index <Space> sidebar-open
 bind index \Cn sidebar-next
 bind index \Cp sidebar-prev
 
 # index macros
-macro index A "<tag-pattern>~R !~D !~F<enter>\
-<tag-prefix><save-message>+[Gmail]/All <enter>" \
-"Archive"
+macro index A "<save-message>+[Gmail]/All <enter>" "archive a message to 'All Mail'"
