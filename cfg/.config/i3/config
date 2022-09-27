@@ -9,7 +9,7 @@ bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec rofi-mpc-playlist
 bindsym $mod+Mod1+m   exec rofi-mpc-library
-bindsym $mod+comma    exec mpd-notify
+bindsym $mod+comma    exec playerctl-notify
 bindsym $mod+u        exec rofi-unicode
 bindsym $mod+v        exec urxvtc -name floating -e quicknote
 bindsym $mod+b        exec vivaldi-quick-commands
