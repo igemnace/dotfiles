@@ -21,7 +21,7 @@ Inbox ~/Mail/igemnace@gmail.com/INBOX
 Channel Main
 Far :Main-remote:
 Near :Main-local:
-Patterns * ![Gmail]* "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/All Mail"
+Patterns INBOX "[Gmail]/All Mail" "[Gmail]/Sent Mail"
 Create Both
 Expunge Both
 SyncState *
@@ -49,7 +49,7 @@ Inbox ~/Mail/29forte95@gmail.com/INBOX
 Channel Gaming
 Far :Gaming-remote:
 Near :Gaming-local:
-Patterns * ![Gmail]* "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/All Mail"
+Patterns INBOX "[Gmail]/All Mail" "[Gmail]/Sent Mail"
 Create Both
 Expunge Both
 SyncState *
