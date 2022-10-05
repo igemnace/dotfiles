@@ -14,6 +14,12 @@ imap-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himala
 pgp-encrypt-cmd = "gpg -o - -eqar"
 watch-cmds = ["mbsync Main"]
 
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "igemnace@gmail.com"
+smtp-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya"
+pgp-decrypt-cmd = "gpg -dq"
+
 [Gaming]
 email = "29forte95@gmail.com"
 notify-cmd = "mail-notify"
@@ -24,3 +30,9 @@ imap-login = "29forte95@gmail.com"
 imap-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
 pgp-encrypt-cmd = "gpg -o - -eqar"
 watch-cmds = ["mbsync Gaming"]
+
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "29forte95@gmail.com"
+smtp-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
+pgp-decrypt-cmd = "gpg -dq"
