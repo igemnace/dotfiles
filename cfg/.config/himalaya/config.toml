@@ -1,38 +1,45 @@
-name = "Ian Emnace"
+display-name = "Ian Emnace"
 downloads-dir = "/home/ian/Downloads"
-notify-query = "not seen"
 
 [Main]
 default = true
 email = "igemnace@gmail.com"
-notify-cmd = "mail-notify"
+backend = "imap"
+sender = "smtp"
+
+imap-notify-query = "not seen"
+imap-notify-cmd = "mail-notify"
+imap-watch-cmds = ["mbsync Main"]
 
 imap-host = "imap.gmail.com"
 imap-port = 993
 imap-login = "igemnace@gmail.com"
 imap-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya"
-pgp-encrypt-cmd = "gpg -o - -eqar"
-watch-cmds = ["mbsync Main"]
+email-reading-decrypt-cmd = "gpg -dq"
 
 smtp-host = "smtp.gmail.com"
 smtp-port = 465
 smtp-login = "igemnace@gmail.com"
 smtp-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya"
-pgp-decrypt-cmd = "gpg -dq"
+email-writing-encrypt-cmd = "gpg -o - -eqar"
 
 [Gaming]
 email = "29forte95@gmail.com"
+backend = "imap"
+sender = "smtp"
+
+notify-query = "not seen"
 notify-cmd = "mail-notify"
+watch-cmds = ["mbsync Gaming"]
 
 imap-host = "imap.gmail.com"
 imap-port = 993
 imap-login = "29forte95@gmail.com"
 imap-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
-pgp-encrypt-cmd = "gpg -o - -eqar"
-watch-cmds = ["mbsync Gaming"]
+email-reading-decrypt-cmd = "gpg -dq"
 
 smtp-host = "smtp.gmail.com"
 smtp-port = 465
 smtp-login = "29forte95@gmail.com"
 smtp-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
-pgp-decrypt-cmd = "gpg -dq"
+email-writing-encrypt-cmd = "gpg -o - -eqar"
