@@ -12,7 +12,7 @@ bindsym $mod+Mod1+m   exec rofi-mpc-library
 bindsym $mod+comma    exec playerctl-notify
 bindsym $mod+u        exec rofi-unicode
 bindsym $mod+v        exec urxvtc -name floating -e quicknote
-bindsym $mod+b        exec vivaldi-quick-commands
+bindsym $mod+b        exec firefox-vomnibar
 bindsym $mod+Mod1+x   exec locktoggle
 bindsym $mod+Mod1+c   exec compositor-toggle
 bindsym $mod+Shift+u  exec rofi-umount
@@ -116,7 +116,7 @@ for_window [class="Flashplayer"] floating enable
 
 assign [class="Vivaldi"]            "3:"
 assign [class="Google-chrome"]      "3:"
-assign [class="Firefox"]            "3:"
+assign [class="(?i)firefox"]        "3:"
 assign [class="(?i)steam"]          "4:"
 assign [class="(?i)heroic"]         "4:"
 assign [class="(?i)runescape"]      "4:"
