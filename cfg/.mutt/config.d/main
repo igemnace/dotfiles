@@ -3,7 +3,7 @@ set imap_user=igemnace@gmail.com
 set imap_pass=`pass show email/google/app-password/igemnace@gmail.com/mutt`
 
 # encryption settings
-set pgp_sign_as=0xE745ECDBA8D167079F8353DF5E5B911E510DF7BE
+set pgp_sign_as=0xDBAA20F8379A18246042D6BA9790DB99CC5F99B3
 
 # mailbox settings
 set mbox_type=Maildir
