@@ -20,8 +20,9 @@ bindsym $mod+Shift+u  exec rofi-umount
 bindsym $mod+Mod1+s mode "start"
 mode "start" {
         bindsym s       mode "default"; exec start
-        bindsym w       mode "default"; exec start browser discord update
+        bindsym w       mode "default"; exec start browser slack update
         bindsym a       mode "default"; exec start browser update
+        bindsym b       mode "default"; exec start browser
         bindsym Escape  mode "default"
 }
 
@@ -129,6 +130,7 @@ assign [class="Flashplayer"]        "4:"
 assign [class="(?i)wine"]           "4:"
 assign [class="(?i)lutris"]         "4:"
 assign [class="(?i)zoom"]           "5:"
+assign [class="(?i)slack"]          "5:"
 
 # META KEYBINDS
 bindsym $mod+Shift+c reload
