@@ -3,7 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Ian Emnace
 	email = igemnace@gmail.com
-	signingkey = E745ECDBA8D167079F8353DF5E5B911E510DF7BE
+	signingkey = DBAA20F8379A18246042D6BA9790DB99CC5F99B3
 [core]
 	excludesfile = ~/.cvsignore
 	editor = vim
