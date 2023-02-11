@@ -1,5 +1,6 @@
 https://hnrss.org/frontpage
 https://lobste.rs/rss
+https://feeds.arstechnica.com/arstechnica/index
 http://rss.slashdot.org/Slashdot/slashdotMain
 https://techcrunch.com/feed/
 https://phys.org/rss-feed/physics-news/
@@ -8,9 +9,11 @@ https://www.philstar.com/rss/headlines News
 https://www.archlinux.org/feeds/news/
 https://www.archlinux.org/feeds/planet/
 https://vivaldi.com/feed/
+https://www.joelonsoftware.com/feed/
+https://drewdevault.com/blog/index.xml
+https://ig.emnace.org/feed.xml
 http://services.runescape.com/m=news/latest_news.rss
 http://services.runescape.com/m=news/latest_news.rss?oldschool=true
-https://ig.emnace.org/feed.xml
 https://github.com/arkenfox/user.js/releases.atom "Github Releases"
 https://github.com/babel/babel-eslint/releases.atom "Github Releases"
 https://github.com/okcompute/es-ctags/releases.atom "Github Releases"
@@ -18,6 +21,7 @@ https://github.com/firebase/bolt/releases.atom "Github Releases"
 https://github.com/CircleCI-Public/circleci-cli/releases.atom "Github Releases"
 https://github.com/Rich-Harris/degit/releases.atom "Github Releases"
 https://github.com/lukejacksonn/servor/releases.atom "Github Releases"
+https://github.com/lwfinger/rtw89/releases.atom "Github Releases"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCs-w7E2HZWwXmjt9RTvBB_A Youtube
 https://www.youtube.com/feeds/videos.xml?user=Jeporite Youtube
 https://www.youtube.com/feeds/videos.xml?user=pwn2kill22 Youtube
