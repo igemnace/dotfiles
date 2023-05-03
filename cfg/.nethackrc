@@ -1,1 +1,64 @@
-OPTIONS=altmeta,!autopickup,!cmdassist,hilite_pet,color
+###########
+# GENERAL #
+###########
+
+# Controls
+OPTIONS=altmeta,!autopickup
+
+# Visuals
+OPTIONS=boulder:0,hilite_pet,color,menucolors,msg_window:reversed
+
+# Misc
+OPTIONS=!cmdassist
+
+##############
+# MENU COLOR #
+##############
+
+# Game-recognized
+MENUCOLOR=" blessed "=cyan
+MENUCOLOR=" holy "=cyan
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+
+# Labelled
+MENUCOLOR= " named C$"=red
+
+#####################
+# STATUS HIGHLIGHTS #
+#####################
+
+OPTIONS=statushilites:5
+
+# HP
+OPTIONS=hilite_status:hitpoints/<100%/green&bold
+OPTIONS=hilite_status:hitpoints/<50%/orange&bold
+OPTIONS=hilite_status:hitpoints/<33%/yellow&bold
+OPTIONS=hilite_status:hitpoints/<15%/red&bold
+
+# Mana
+OPTIONS=hilite_status:power/<100%/green&bold
+OPTIONS=hilite_status:power/<50%/orange&bold
+OPTIONS=hilite_status:power/<25%/red&bold
+
+# Experience
+OPTIONS=hilite_status:experience/down/red&bold
+OPTIONS=hilite_status:experience-level/up/yellow&bold/down/red&bold
+
+# Encumberance
+OPTIONS=hilite_status:cap/burdened/yellow/stressed/orange/strained/red/overtaxed/red/overloaded/red
+
+# Hunger
+OPTIONS=hilite_status:hunger/satiated/cyan/hungry/yellow/weak/orange/fainting/red/fainted/red
+
+# Troubles
+OPTIONS=hilite_status:condition/hallu/magenta
+OPTIONS=hilite_status:condition/conf/yellow
+OPTIONS=hilite_status:condition/stun/red
+OPTIONS=hilite_status:condition/major_troubles/red
+
+# Attributes
+OPTIONS=hilite_status:armor-class/down/cyan&bold/up/red&bold
+OPTIONS=hilite_status:characteristics/up/cyan&bold/down/red&bold
+OPTIONS=hilite_status:hitpoints-max/down/red&bold
+OPTIONS=hilite_status:power-max/down/red&bold
