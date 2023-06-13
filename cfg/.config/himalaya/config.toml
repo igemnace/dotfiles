@@ -1,5 +1,5 @@
 display-name = "Ian Emnace"
-downloads-dir = "/home/ian/Downloads"
+downloads-dir = "/home/ian/Downloads/inbox"
 
 [Main]
 default = true
@@ -14,13 +14,15 @@ imap-watch-cmds = ["mbsync Main"]
 imap-host = "imap.gmail.com"
 imap-port = 993
 imap-login = "igemnace@gmail.com"
-imap-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya"
+imap-auth = "passwd"
+imap-passwd = { cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya" }
 email-reading-decrypt-cmd = "gpg -dq"
 
 smtp-host = "smtp.gmail.com"
 smtp-port = 465
 smtp-login = "igemnace@gmail.com"
-smtp-passwd-cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya"
+smtp-auth = "passwd"
+smtp-passwd = { cmd = "pass show email/google/app-password/igemnace@gmail.com/himalaya" }
 email-writing-encrypt-cmd = "gpg -o - -eqar"
 
 [Gaming]
@@ -35,11 +37,13 @@ imap-watch-cmds = ["mbsync Gaming"]
 imap-host = "imap.gmail.com"
 imap-port = 993
 imap-login = "29forte95@gmail.com"
-imap-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
+imap-auth = "passwd"
+imap-passwd = { cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya" }
 email-reading-decrypt-cmd = "gpg -dq"
 
 smtp-host = "smtp.gmail.com"
 smtp-port = 465
 smtp-login = "29forte95@gmail.com"
-smtp-passwd-cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya"
+smtp-auth = "passwd"
+smtp-passwd = { cmd = "pass show email/google/app-password/29forte95@gmail.com/himalaya" }
 email-writing-encrypt-cmd = "gpg -o - -eqar"
