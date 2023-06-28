@@ -1,0 +1,22 @@
+### ACCOUNT: GAMING
+
+# set account-based settings
+set my_user=29forte95@gmail.com
+set hostname="gmail.com"
+set from=$my_user
+set realname='Ian Emnace'
+set pgp_sign_as=0xDBAA20F8379A18246042D6BA9790DB99CC5F99B3
+set smtp_pass=`pass show email/google/app-password/29forte95@gmail.com/mutt`
+set smtp_url=smtps://$my_user:$smtp_pass@smtp.gmail.com/
+
+# set folder for good measure
+set folder=~/Mail/29forte95@gmail.com/
+
+# point mailboxes accordingly
+set spoolfile=+INBOX
+set postponed=+postponed
+
+# avoid saving outgoing messages, Gmail already does it with Sent Mail
+set record=no
+
+# vim:ft=muttrc

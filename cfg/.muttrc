@@ -1,46 +1,121 @@
-# account settings
-source "~/.mutt/config.d/gaming"
-source "~/.mutt/config.d/main"
+### NOTES
+# prefer to use explicit =yes or =no for booleans/quadoptions
+# so there is no doubt it's a boolean/quadoption
+# and for easy grepping in the docs, e.g. set noallow_8bit: what's the var name?
 
-# encryption settings
-source "~/.mutt/gpg.rc"
-set pgp_use_gpg_agent=yes
-set crypt_autosign=yes
+# TODO: automate symlinking for gpg.rc
 
-# mailbox settings
-set mail_check=60
-set imap_keepalive=30
-unset imap_passive
+### ACCOUNTS {{{
+# set up folders and mailboxes
+set mbox_type=Maildir
+set my_folder_main=~/Mail/igemnace@gmail.com
+set my_folder_gaming=~/Mail/29forte95@gmail.com
+mailboxes $my_folder_main/INBOX "$my_folder_main/[Gmail]/All Mail" "$my_folder_main/[Gmail]/Sent Mail"
+mailboxes $my_folder_gaming/INBOX "$my_folder_gaming/[Gmail]/All Mail" "$my_folder_gaming/[Gmail]/Sent Mail"
 
-# mail settings
-set charset="utf-8"
-set send_charset="utf-8"
-set fast_reply=yes
-set include=yes
+# set up folder-hooks to set account config depending on folder
+folder-hook $my_folder_main 'source "~/.mutt/folder-hooks/main"'
+folder-hook $my_folder_gaming 'source "~/.mutt/folder-hooks/gaming"'
+
+# select default folder upon opening
+set folder=$my_folder_main
+set spoolfile=+INBOX
+### }}}
+
+### CONNECTION SETTINGS {{{
+# make sure to always use tls (and avoid the exploitable STARTTLS!)
+set ssl_force_tls=yes
+set ssl_starttls=no
+### }}}
+
+### CLIENT UI {{{
+# source colorscheme
+source "~/.mutt/highlight"
+
+# use short paths for sidebar, to remove folder prefix
+set sidebar_short_path=yes
+
+# get rid of Press Enter prompts
+set wait_key=no
+
+# forgo confirmation for most actions
 set delete=yes
+set quit=yes
+set confirmappend=no
 
-# alias settings
-set alias_file="~/.mutt/aliases"
-set sort_alias=alias
-set reverse_alias=yes
-source $alias_file
+# sort index with threads
+set sort=threads
 
+# avoid sleep time, so folder movement is instant
+set sleep_time=0
+### }}}
+
+### MAIL VIEWING {{{
 # mailcap settings
 set mailcap_path="~/.mutt/mailcap"
 auto_view text/html
 alternative_order text/plain text/html
+### }}}
 
-# index settings
-push <collapse-all><last-entry>
+### MAIL WRITING {{{
+# sanity: use UTF-8
+set send_charset="utf-8"
 
-# color settings
-source "~/.mutt/highlight"
+# use format=flowed
+set text_flowed=yes
 
-# index keybinds
+# include copy by default, for easy quoting
+set include=yes
+
+# use default subject/recipients when replying/forwarding
+set fast_reply=yes
+### }}}
+
+### MAIL ENCRYPTION / SIGNING {{{
+# use classic mode
+set crypt_use_gpgme=no
+source "~/.mutt/gpg.rc"
+
+# use gpg agent
+set pgp_use_gpg_agent=yes
+
+# sign all emails by default
+set crypt_autosign=yes
+### }}}
+
+### ALIASES {{{
+# set a separate alias file, which we can leave unchecked in for privacy
+set alias_file="~/.mutt/aliases"
+source $alias_file
+
+# use aliases for displaying in the index
+set reverse_alias=yes
+### }}}
+
+### MISC SETTINGS {{{
+# use header caching
+set header_cache=~/.cache/mutt
+### }}}
+
+### BINDS AND MACROS {{{
+# set up sidebar binds
 bind index p sidebar-toggle-visible
 bind index <Space> sidebar-open
 bind index \Cn sidebar-next
 bind index \Cp sidebar-prev
 
-# index macros
+# set up macros to archive to All Mail
 macro index A "<save-message>+[Gmail]/All <enter>" "archive a message to 'All Mail'"
+macro pager A "<save-message>+[Gmail]/All <enter>" "archive a message to 'All Mail'"
+
+# set up macros to quickly switch between account inboxes
+macro index <F1> "<change-folder>$my_folder_main/INBOX<enter>" "switch to Main account"
+macro index <F2> "<change-folder>$my_folder_gaming/INBOX<enter>" "switch to Gaming account"
+### }}}
+
+### STARTUP PUSH COMMANDS {{{
+# start with cursor on last entry
+folder-hook . "push <last-entry>"
+### }}}
+
+# vim:fdm=marker
