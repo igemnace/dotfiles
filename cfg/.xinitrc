@@ -47,6 +47,10 @@ fi
 # check archwiki page why urxvtd is started here instead of in a systemd service
 urxvtd -q -f -o &
 
+# start dunst here
+# dunst can only really work with DISPLAY set
+dunst &
+
 # start playerctld
 playerctld daemon &
 
