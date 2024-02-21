@@ -1,18 +1,31 @@
 https://hnrss.org/frontpage
 https://lobste.rs/rss
+https://sic.pm/feeds/latest.rss
+https://ln.ht/_/feed/
 https://tildes.net/topics.rss
+https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 https://feeds.arstechnica.com/arstechnica/index
-http://rss.slashdot.org/Slashdot/slashdotMain
-https://techcrunch.com/feed/
 https://phys.org/rss-feed/physics-news/
 https://phys.org/rss-feed/space-news/
 https://www.philstar.com/rss/headlines News
 https://www.archlinux.org/feeds/news/
 https://www.archlinux.org/feeds/planet/
+https://lineageos.org/feed.xml
 https://vivaldi.com/feed/
 https://www.joelonsoftware.com/feed/
 https://drewdevault.com/blog/index.xml
+https://buttondown.email/hillelwayne/rss
+https://ntietz.com/atom.xml
+https://blog.orhun.dev/rss.xml
+https://manuelmoreale.com/feed/rss
+https://pitsidianak.is/blog/feed.xml
+https://f5n.org/blog/atom.xml
+https://lpcvoid.com/rss
+https://btxx.org/index.atom
 https://ig.emnace.org/feed.xml
+https://rubin55.org/feed.xml
+https://changelog.complete.org/feed
+https://what-if.xkcd.com/feed.atom
 http://services.runescape.com/m=news/latest_news.rss
 http://services.runescape.com/m=news/latest_news.rss?oldschool=true
 https://shatteredpixel.com/feed.xml
@@ -24,17 +37,18 @@ https://github.com/CircleCI-Public/circleci-cli/releases.atom "Github Releases"
 https://github.com/Rich-Harris/degit/releases.atom "Github Releases"
 https://github.com/lukejacksonn/servor/releases.atom "Github Releases"
 https://github.com/lwfinger/rtw89/releases.atom "Github Releases"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg Youtube
+https://www.youtube.com/feeds/videos.xml?user=MINUTEFOOD Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6IxnFzHofFJ5X2PycSMsww Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA Youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UClq42foiSgl7sSpLupnugGA Youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFT0m9E3lbPVH0I06vXmV4Q Youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCs-w7E2HZWwXmjt9RTvBB_A Youtube
 https://www.youtube.com/feeds/videos.xml?user=Jeporite Youtube
 https://www.youtube.com/feeds/videos.xml?user=pwn2kill22 Youtube
 https://www.youtube.com/feeds/videos.xml?user=BRJokerz Youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUHW94eEFW7hkUMVaZz4eDg Youtube
-https://www.youtube.com/feeds/videos.xml?user=MINUTEFOOD Youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA Youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6nSFpj9HTCZ5t-N3Rm3-HA Youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UClq42foiSgl7sSpLupnugGA Youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCdN4aXTrHAtfgbVG9HjBmxQ Youtube
 https://www.youtube.com/feeds/videos.xml?user=biffotasty Youtube
 https://www.youtube.com/feeds/videos.xml?user=rayray19wun Youtube
 https://www.youtube.com/feeds/videos.xml?user=Marlinpie Youtube
