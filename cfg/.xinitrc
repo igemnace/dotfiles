@@ -32,7 +32,11 @@ xcape -t 200 &
 xbindkeys &
 
 # set up xautolock
-xset s 900 &
+if [[ -d "$HOME/.config/locktoggle/lock" ]]; then
+	xset s 900 +dpms
+else
+	xset s off -dpms
+fi
 xss-lock lockscreen &
 
 # start some nice programs
