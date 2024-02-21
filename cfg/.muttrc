@@ -105,8 +105,8 @@ bind index \Cn sidebar-next
 bind index \Cp sidebar-prev
 
 # set up macros to archive to All Mail
-macro index A "<save-message>+[Gmail]/All <enter>" "archive a message to 'All Mail'"
-macro pager A "<save-message>+[Gmail]/All <enter>" "archive a message to 'All Mail'"
+macro index A "<save-message>+[Gmail]/All Mail<enter>" "archive a message to 'All Mail'"
+macro pager A "<save-message>+[Gmail]/All Mail<enter>" "archive a message to 'All Mail'"
 
 # set up macros to quickly switch between account inboxes
 macro index <F1> "<change-folder>$my_folder_main/INBOX<enter>" "switch to Main account"
