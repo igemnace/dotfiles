@@ -15,6 +15,7 @@ bindsym $mod+v        exec urxvtc -name floating -e quicknote
 bindsym $mod+b        exec firefox-vomnibar
 bindsym $mod+Mod1+x   exec locktoggle
 bindsym $mod+Mod1+c   exec compositor-toggle
+bindsym $mod+Mod1+e   exec escape-toggle
 bindsym $mod+Shift+u  exec rofi-umount
 
 bindsym $mod+Mod1+s mode "start"
@@ -129,6 +130,8 @@ assign [class="jagexappletviewer"]  "4:"
 assign [class="Flashplayer"]        "4:"
 assign [class="(?i)wine"]           "4:"
 assign [class="(?i)lutris"]         "4:"
+assign [class="(?i)dosbox"]         "4:"
+assign [class="jagexlauncher"]      "4:"
 assign [class="(?i)zoom"]           "5:"
 assign [class="(?i)slack"]          "5:"
 
