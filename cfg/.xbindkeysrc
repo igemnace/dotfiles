@@ -38,3 +38,5 @@
 	Mod4 + Mod1 + Escape
 "dunstctl set-paused toggle"
 	Mod4 + Mod1 + n
+"xdotool sleep 0.2 key --clearmodifiers Multi_key"
+	Mod4 + Mod1 + u
