@@ -178,6 +178,6 @@ default_floating_border normal 1
 hide_edge_borders both
 focus_follows_mouse no
 client.focused           #303030 #303030 #ffd75f #d787d7 #767676
-client.focused_inactive  #303030 #303030 #767676 #d787d7 #303030
+client.focused_inactive  #303030 #303030 #ffd75f #d787d7 #303030
 client.unfocused         #303030 #303030 #767676 #d787d7 #303030
 client.urgent            #303030 #303030 #d787d7 #d787d7 #303030
