@@ -1,6 +1,8 @@
 auto-reload no
 refresh-on-startup yes
+reload-threads 6
 max-items 1000
+datetime-format "%d %b"
 
 bind-key J next-feed
 bind-key K prev-feed
