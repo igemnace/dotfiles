@@ -36,3 +36,5 @@
 	Mod4 + Shift + Escape
 "dunstctl history-pop"
 	Mod4 + Mod1 + Escape
+"dunstctl set-paused toggle"
+	Mod4 + Mod1 + n
