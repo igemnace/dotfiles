@@ -3,7 +3,7 @@ IMAPAccount Main
 Host imap.gmail.com
 User igemnace@gmail.com
 PassCmd "pass show email/google/app-password/igemnace@gmail.com/mbsync"
-SSLType IMAPS
+TLSType IMAPS
 CertificateFile /etc/ssl/certs/ca-certificates.crt
 
 # Far
@@ -31,7 +31,7 @@ IMAPAccount Gaming
 Host imap.gmail.com
 User 29forte95@gmail.com
 PassCmd "pass show email/google/app-password/29forte95@gmail.com/mbsync"
-SSLType IMAPS
+TLSType IMAPS
 CertificateFile /etc/ssl/certs/ca-certificates.crt
 
 # Far
