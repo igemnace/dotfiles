@@ -4,7 +4,7 @@ set $mod Mod4
 bindsym $mod+Return   exec st
 bindsym $mod+space    exec rofi -modi run#window -show run
 bindsym $mod+c        exec urxvtc -g 64x9 -name floating -e ical
-bindsym $mod+equal    exec urxvtc -name floating -e qalc
+bindsym $mod+equal    exec urxvtc -name floating -e qalc -s "upxrates 7"
 bindsym $mod+Shift+w  exec rofi-nmcli
 bindsym $mod+Shift+m  exec rofi-mons
 bindsym $mod+m        exec rofi-mpc-playlist
