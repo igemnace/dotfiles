@@ -8,7 +8,7 @@ backend = "imap"
 sender = "smtp"
 
 imap-notify-query = "not seen"
-imap-notify-cmd = "mail-notify \"<subject>\" \"<sender>\""
+imap-notify-cmd = "mail-notify '<subject>' '<sender>'"
 imap-watch-cmds = ["mbsync Main"]
 
 imap-host = "imap.gmail.com"
@@ -31,7 +31,7 @@ backend = "imap"
 sender = "smtp"
 
 imap-notify-query = "not seen"
-imap-notify-cmd = "mail-notify \"<subject>\" \"<sender>\""
+imap-notify-cmd = "mail-notify '<subject>' '<sender>'"
 imap-watch-cmds = ["mbsync Gaming"]
 
 imap-host = "imap.gmail.com"
