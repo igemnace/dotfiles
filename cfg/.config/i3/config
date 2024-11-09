@@ -13,6 +13,7 @@ bindsym $mod+comma    exec playerctl-notify
 bindsym $mod+u        exec rofi-unicode
 bindsym $mod+v        exec urxvtc -name floating -e quicknote
 bindsym $mod+b        exec firefox-vomnibar
+bindsym $mod+s        exec sr --rofi
 bindsym $mod+Mod1+x   exec locktoggle
 bindsym $mod+Mod1+c   exec compositor-toggle
 bindsym $mod+Mod1+e   exec escape-toggle
@@ -65,7 +66,7 @@ bindsym $mod+Shift+k  move up
 bindsym $mod+Shift+l  move right
 bindsym $mod+|        split h
 bindsym $mod+-        split v
-bindsym $mod+s        layout stacking
+bindsym $mod+Mod1+w   layout stacking
 bindsym $mod+w        layout tabbed
 bindsym $mod+e        layout toggle split
 
