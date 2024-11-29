@@ -1,22 +1,17 @@
 https://hnrss.org/frontpage
 https://lobste.rs/rss
-https://sic.pm/feeds/latest.rss
-https://ln.ht/_/feed/
 https://tildes.net/topics.rss
 https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 https://stackexchange.com/feeds/questions
-https://feeds.arstechnica.com/arstechnica/index
-https://phys.org/rss-feed/physics-news/
-https://phys.org/rss-feed/space-news/
 https://www.philstar.com/rss/headlines News
-https://www.inquirer.net/fullfeed News
 https://www.archlinux.org/feeds/news/
 https://www.archlinux.org/feeds/planet/
-https://lineageos.org/feed.xml
 https://www.mozilla.org/en-US/firefox/nightly/notes/feed/
 https://vivaldi.com/feed/
+https://words.filippo.io/rss/ "Personal Blog" "Infosec"
+https://maia.crimew.gay/feed.xml "Personal Blog" "Infosec"
+https://fy.blackhats.net.au/rss.xml "Personal Blog" "Infosec"
 https://www.joelonsoftware.com/feed/ "Personal Blog"
-https://words.filippo.io/rss/ "Personal Blog"
 https://www.schneier.com/feed/atom "Personal Blog"
 https://daniel.haxx.se/blog/feed/ "Personal Blog"
 https://drewdevault.com/blog/index.xml "Personal Blog"
@@ -41,9 +36,13 @@ https://steveklabnik.com/feed.xml "Personal Blog"
 https://mccd.space/feed.xml "Personal Blog"
 https://unplannedobsolescence.com/atom.xml "Personal Blog"
 https://ploum.net/atom_en.xml "Personal Blog"
-https://maia.crimew.gay/feed.xml "Personal Blog"
-https://fy.blackhats.net.au/rss.xml "Personal Blog"
+https://rubenerd.com/feed/ "Personal Blog"
+https://adele.pages.casa/md/blog/rss.xml "Personal Blog"
 https://wheybags.com/blog/rss.xml "Personal Blog"
+https://ttimo.typepad.com/blog/atom.xml "Personal Blog"
+https://fatzombi.com/feed.xml "Personal Blog"
+https://blog.funcall.org/feed.xml "Personal Blog"
+https://neilzone.co.uk/index.xml "Personal Blog"
 https://ig.emnace.org/feed.xml "Personal Blog"
 https://what-if.xkcd.com/feed.atom
 http://services.runescape.com/m=news/latest_news.rss Games
