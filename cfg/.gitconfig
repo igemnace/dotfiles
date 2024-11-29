@@ -3,7 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Ian Emnace
 	email = igemnace@gmail.com
-	signingkey = DBAA20F8379A18246042D6BA9790DB99CC5F99B3
+	signingkey = /home/ian/.ssh/id_ed25519.pub
 [core]
 	excludesfile = ~/.cvsignore
 	editor = vim
@@ -21,3 +21,5 @@
 	defaultBranch = main
 [log]
 	date = format:%a %d %b %Y %I:%M %p %z
+[gpg]
+	format = ssh
