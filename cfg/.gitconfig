@@ -23,3 +23,5 @@
 	date = format:%a %d %b %Y %I:%M %p %z
 [gpg]
 	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /home/ian/.config/git/allowed_signers
