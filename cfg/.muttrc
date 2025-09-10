@@ -105,8 +105,8 @@ bind index \Cn sidebar-next
 bind index \Cp sidebar-prev
 
 # use group-chat-reply by default
-bind index r group-chat-reply
-bind pager r group-chat-reply
+bind index g group-chat-reply
+bind pager g group-chat-reply
 
 # set up macros to archive to All Mail
 macro index A "<save-message>+[Gmail]/All Mail<enter>" "archive a message to 'All Mail'"
