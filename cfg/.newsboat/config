@@ -1,8 +1,10 @@
 auto-reload no
 refresh-on-startup yes
 reload-threads 6
-max-items 1000
+max-items 200
 datetime-format "%d %b"
+feed-sort-order latestunread
+error-log "~/newsboat.log"
 
 bind-key J next-feed
 bind-key K prev-feed
