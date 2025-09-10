@@ -37,7 +37,6 @@ if [[ -d "$HOME/.config/locktoggle/lock" ]]; then
 else
 	xset s off -dpms
 fi
-xss-lock lockscreen &
 
 # start some nice programs
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
