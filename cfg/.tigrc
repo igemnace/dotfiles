@@ -3,6 +3,7 @@ bind generic Y !@sh -c "printf '%s' %(commit) | xsel -b"
 ## COLORS
 # general
 color cursor yellow color237
+color cursor-blur yellow color237
 color status white black
 color title-focus color8 color237
 color title-blur color8 color237
