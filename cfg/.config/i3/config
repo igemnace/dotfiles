@@ -17,7 +17,9 @@ bindsym $mod+s        exec sr --rofi
 bindsym $mod+Mod1+x   exec locktoggle
 bindsym $mod+Mod1+c   exec compositor-toggle
 bindsym $mod+Mod1+e   exec escape-toggle
+bindsym $mod+Mod1+r   exec cursor-toggle
 bindsym $mod+Shift+u  exec rofi-umount
+bindsym $mod+Shift+b  exec lk4b
 
 bindsym $mod+Mod1+s mode "start"
 mode "start" {
