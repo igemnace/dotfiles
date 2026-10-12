@@ -4,6 +4,7 @@ https://web.dev/feed.xml
 https://tildes.net/topics.rss
 https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 https://www.philstar.com/rss/headlines News
+https://phys.org/rss-feed/ News
 https://www.archlinux.org/feeds/news/
 https://www.archlinux.org/feeds/planet/
 https://www.mozilla.org/en-US/firefox/nightly/notes/feed/
@@ -13,6 +14,7 @@ https://words.filippo.io/rss/ "Personal Blog" "Infosec"
 https://maia.crimew.gay/feed.xml "Personal Blog" "Infosec"
 https://fy.blackhats.net.au/rss.xml "Personal Blog" "Infosec"
 https://soatok.blog/feed/ "Personal Blog" "Infosec"
+https://secret.club/feed.xml "Personal Blog" "Reverse Engineering"
 https://www.joelonsoftware.com/feed/ "Personal Blog"
 https://www.schneier.com/feed/atom "Personal Blog"
 https://daniel.haxx.se/blog/feed/ "Personal Blog"
@@ -68,6 +70,10 @@ https://akselmo.dev/feed.xml "Personal Blog"
 https://anniemueller.com/posts_feed "Personal Blog"
 https://serebit.dev/index.xml "Personal Blog"
 https://linderud.dev/index.xml "Personal Blog"
+https://dbushell.com/rss.xml "Personal Blog"
+https://unsung.aresluna.org/feed.xml "Personal Blog"
+https://blog.greg.technology/feed.xml "Personal Blog"
+https://neg4n.dev/rss.xml "Personal Blog"
 https://ig.emnace.org/feed.xml "Personal Blog"
 http://services.runescape.com/m=news/latest_news.rss Games
 http://services.runescape.com/m=news/latest_news.rss?oldschool=true Games
