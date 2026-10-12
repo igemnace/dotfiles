@@ -1,0 +1,12 @@
+[Unit]
+Description=IMAP IDLE watcher for mbsync
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/goimapnotify -conf %h/.config/goimapnotify/goimapnotify.yaml
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target

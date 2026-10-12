@@ -1,0 +1,20 @@
+configurations:
+  - host: imap.gmail.com
+    port: 993
+    tls: true
+    username: igemnace@gmail.com
+    passwordCMD: pass show email/google/app-password/igemnace@gmail.com/mbsync
+    boxes:
+      - mailbox: INBOX
+        onNewMail: mbsync Main
+        onNewMailPost: ~/.local/bin/mailbox-notify ~/Mail/igemnace@gmail.com/INBOX
+
+  - host: imap.gmail.com
+    port: 993
+    tls: true
+    username: 29forte95@gmail.com
+    passwordCMD: pass show email/google/app-password/29forte95@gmail.com/mbsync
+    boxes:
+      - mailbox: INBOX
+        onNewMail: mbsync Gaming
+        onNewMailPost: ~/.local/bin/mailbox-notify ~/Mail/29forte95@gmail.com/INBOX
