@@ -1,0 +1,13 @@
+[Unit]
+Description=MPRIS notifier
+After=mpd.service
+After=playerctld.service
+
+[Service]
+Type=simple
+Environment="PATH=/usr/bin:/home/ian/.local/bin DISPLAY=:0"
+ExecStart=/home/ian/.local/bin/playerctl-notify --follow --skip-first
+Restart=always
+
+[Install]
+WantedBy=default.target
